@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text_Login poup heading</name>
+   <tag></tag>
+   <elementGuidId>5a5e1c1f-4a42-4907-a927-38edb91a9507</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div[role='dialog'] h4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h4[@id='T1981208651']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;With your (free) account you can:&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>dda90c01-7bd5-49e8-8be0-b42cb504aa3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>C_dF C_gq M_jX</value>
+      <webElementGuid>bfdd1c09-57c6-4af3-8342-0621c4a37999</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>T1981208651</value>
+      <webElementGuid>bf57f214-bbec-4e9d-b3bd-8f922f232221</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>With your (free) account you can:</value>
+      <webElementGuid>270ba2b6-d835-4b9f-bcd2-6e4d72c1fab1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;T1981208651&quot;)</value>
+      <webElementGuid>a96d9931-1484-4268-a26c-e1f4108c0c64</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h4[@id='T1981208651']</value>
+      <webElementGuid>1ef0aecc-0244-43bf-a5f5-bfe4168d1b63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Modal'])[1]/following::h4[1]</value>
+      <webElementGuid>53f792e6-0b35-4a8c-a866-aac0974fdeb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Privacy [`dialog closed`]'])[1]/following::h4[1]</value>
+      <webElementGuid>48562f5e-af9e-4ee9-a577-ed2c3d331439</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/preceding::h4[1]</value>
+      <webElementGuid>2019b9f5-0176-4031-9830-165b0666be9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='With your']/parent::*</value>
+      <webElementGuid>d928acc6-56f7-4c76-80ac-16bed6ae26e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div[2]/div/div[2]/div/h4</value>
+      <webElementGuid>2570b21a-24cb-4e3b-8740-01a13a39b496</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[@id = 'T1981208651' and (text() = 'With your (free) account you can:' or . = 'With your (free) account you can:')]</value>
+      <webElementGuid>c5dcd912-8c0a-4b9e-80a7-6978a76b8bb7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>The application url</description>
+      <initValue>'https://www.thewildest-stg.com/'</initValue>
+      <name>baseURL</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

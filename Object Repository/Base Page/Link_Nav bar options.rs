@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Link_Nav bar options</name>
+   <tag></tag>
+   <elementGuidId>bbd3483c-d476-4cdf-9bca-52b3743b7bac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mainnavigation>li>a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>#mainnavigation>li>a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>17d088c1-b905-4e0b-a6b0-10ecf8ff9b45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1713352402064</value>
+      <webElementGuid>1452f912-3e4d-4fd2-b9eb-03a4b00a74e2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
