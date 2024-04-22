@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "32471CBA2A0ACD1735D90971ADC48BE0",
+  "keywordClasses": [
+    {
+      "name": "pageObjects.HomePage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

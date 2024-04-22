@@ -15,8 +15,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
-import groovy.console.ui.Console
+import groovy.console.ui.Console as Console
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
@@ -34,7 +33,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Base Page/Text_Login p
 
 List<String> list = WebUI.getText(findTestObject('Object Repository/Base Page/Text_Account points on popup'))
 
-CustomKeywords.class.
-//WebUI.verifyElementText(findTestObject('Object Repository/Base Page/Text_Account points on popup'), Points)
+CustomKeywords.'pageObjects.New.clickElement'(findTestObject(null))
 
-//WebUI.closeBrowser()
