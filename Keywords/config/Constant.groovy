@@ -24,4 +24,5 @@ public class Constant {
 	public final static String USERDATA = "Data Files/web/UserData";
 
 	public final static String LOGIN_TESTDATA = "Json Test Data/loginTestData.json"
+	public final static String SIGNUP_TESTDATA = "Json Test Data/signupTestData.json"
 }

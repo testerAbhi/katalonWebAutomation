@@ -19,39 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import config.Constant
+import config.FrameworkConfig
 import groovy.console.ui.Console as Console
 import internal.GlobalVariable
 import utils.FileOperations
+import web.HomePage
+import web.LoginPage
 
 import org.openqa.selenium.Keys
 import org.openqa.selenium.WebElement
 import org.testng.Assert
 
+HomePage homePage = new HomePage()
+LoginPage loginPage = new LoginPage()
 
-def POPUP_HEADING = FileOperations.getValue(Constant.HOME_MODULE_TESTDATA, "PopupHeading")
-
-WebUI.openBrowser(GlobalVariable.webBaseURL)
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.verifyElementVisible(findTestObject('null'))
-
-//def heading = WebUI.getText(findTestObject('null')).replaceAll("\n", "")
-//Assert.assertArrayEquals(heading, POPUP_HEADING, "does not match")
-
-def elements = findTestObject('null');
-List<WebElement> eles = WebUiBuiltInKeywords.findWebElements(elements, 10)
-println(eles.size())
-List<String> list = new ArrayList<String>()
-for(WebElement e: eles) {
-	String str = e.getText()
-	list.add(str)
-}
-
-Assert.assertArrayEquals(list, Points, "List do not match")
-
-
+homePage.webSetUp()
+loginPage.userLogin(FrameworkConfig.webUseremail, FrameworkConfig.webUserPassword)
