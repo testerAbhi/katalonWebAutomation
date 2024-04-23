@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Text_Other Login Option</name>
+   <tag></tag>
+   <elementGuidId>8804ad54-e56a-437b-bb99-61f9e34e6e0a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/form/div[4]/h4</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.login-with-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Or Login with&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>9f9fc7f7-8d24-4bde-9872-607081c0ab44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login-with-text</value>
+      <webElementGuid>c6a338e8-681a-4ed5-8d56-6d5708ea4a96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Or Login with</value>
+      <webElementGuid>5603c8cc-03d3-4a4b-8a2d-77d565abe206</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;login-main-container&quot;]/div[@class=&quot;container form-container&quot;]/div[@class=&quot;login-flex-container&quot;]/div[@class=&quot;login-form-container fw-bolder d-flex flex-column justify-content-center align-items-center&quot;]/div[@class=&quot;loginformdiv&quot;]/form[@class=&quot;d-flex flex-column align-items-center justify-content-between loginform&quot;]/div[@class=&quot;footer-container&quot;]/h4[@class=&quot;login-with-text&quot;]</value>
+      <webElementGuid>9470be0f-5add-457e-a1ea-18f2165ea0ee</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/form/div[4]/h4</value>
+      <webElementGuid>9630c9e1-0190-49aa-920b-bae7b2c8b0d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log In'])[1]/following::h4[1]</value>
+      <webElementGuid>5164bc68-1ed9-4c13-ae30-b75b25472a0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot Password!'])[1]/following::h4[1]</value>
+      <webElementGuid>0ed10db1-dd4d-42ec-ac87-0039d6c615a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Up'])[1]/preceding::h4[1]</value>
+      <webElementGuid>bcd91629-7490-418a-b465-bd63ddbb8328</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Or Login with']/parent::*</value>
+      <webElementGuid>b2fd6368-1fac-47d4-8755-ddbb4d35c7b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>a59aac0e-e156-4cb3-aa86-8615ac838139</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'Or Login with' or . = 'Or Login with')]</value>
+      <webElementGuid>355997a1-b3c4-4f1e-bc91-fb43e8c15c09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

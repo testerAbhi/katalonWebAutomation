@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IMG_Google icon</name>
+   <tag></tag>
+   <elementGuidId>d8631222-f3f1-4a30-ac73-39458e4fbfe9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/form/div[4]/div/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.google-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;form&quot;] >> internal:role=img</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>c6c4b682-0a8f-4d8a-9be7-f47a228bfb18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>google-icon</value>
+      <webElementGuid>0ab73a7e-1f29-4c49-91a1-4bc0b44949f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/media/GoogleIcon.fa2bf4ff.svg</value>
+      <webElementGuid>f0c98109-edbf-4099-a421-9e2477227319</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;login-main-container&quot;]/div[@class=&quot;container form-container&quot;]/div[@class=&quot;login-flex-container&quot;]/div[@class=&quot;login-form-container fw-bolder d-flex flex-column justify-content-center align-items-center&quot;]/div[@class=&quot;loginformdiv&quot;]/form[@class=&quot;d-flex flex-column align-items-center justify-content-between loginform&quot;]/div[@class=&quot;footer-container&quot;]/div[@class=&quot;google-container&quot;]/div[@class=&quot;loginwithgooglebtn&quot;]/img[@class=&quot;google-icon&quot;]</value>
+      <webElementGuid>2cd05c58-1990-4ce3-98b5-d2df573fc7b3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/form/div[4]/div/div/img</value>
+      <webElementGuid>74f09458-9d1b-4045-8187-7bec71a3e055</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/img</value>
+      <webElementGuid>f1f84295-50ee-4821-ad50-f22917acfaef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/static/media/GoogleIcon.fa2bf4ff.svg']</value>
+      <webElementGuid>efd2911d-9b08-4501-90c4-97427e02fc11</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

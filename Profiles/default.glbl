@@ -5,8 +5,23 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>The application url</description>
-      <initValue>'https://www.thewildest-stg.com/'</initValue>
-      <name>baseURL</name>
+      <description>The web application url</description>
+      <initValue>'https://testss.drealestategroup.com/login'</initValue>
+      <name>webBaseURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'path'</initValue>
+      <name>mobileAPKPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>15</initValue>
+      <name>Timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>ShortTimeout</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
