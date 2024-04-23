@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01- Verify Login Popup UI on Home Screen</name>
+   <name>TC04 Validate navigation of each menu bar option on Home Page</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5b4362ce-5eec-417d-8eac-f323125a8e20</testCaseGuid>
