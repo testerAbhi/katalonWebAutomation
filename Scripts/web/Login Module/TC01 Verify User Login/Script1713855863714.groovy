@@ -1,3 +1,4 @@
+import web.HomePage
 import web.LoginPage as LoginPage
 import config.FrameworkConfig
 
@@ -9,6 +10,7 @@ import config.Constant as Constant
 import utils.FileOperations as FileOperations
 
 LoginPage loginPage = new LoginPage()
+HomePage homePage = new HomePage()
 String HOMEPAGEHEADING = (String) FileOperations.getValueFromJsonFile(Constant.LOGIN_TESTDATA, "HomePageHeading")
 
 loginPage.webSetUp()
@@ -17,4 +19,4 @@ String pageHeading = loginPage.userLogin(FrameworkConfig.webUseremail, Framework
 
 Assert.assertEquals(pageHeading, HOMEPAGEHEADING)
 
-WebUI.closeBrowser()
+homePage.quitDriver()

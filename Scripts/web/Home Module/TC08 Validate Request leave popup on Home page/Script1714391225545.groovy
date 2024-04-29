@@ -14,28 +14,39 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
-import config.Constant
-import config.FrameworkConfig
-import internal.GlobalVariable
-import utils.FileOperations
-import web.HomePage
-import web.LoginPage
-
-import org.openqa.selenium.Keys
-import org.testng.Assert
-import org.testng.Assert as Keys
+import internal.GlobalVariable as GlobalVariable
+import locatorCall.LocatorName as LocatorName
+import org.openqa.selenium.Keys as Keys
+import org.testng.Assert as Assert
+import config.Constant as Constant
+import config.FrameworkConfig as FrameworkConfig
+import utils.FileOperations as FileOperations
+import utils.FileOperations as File
+import web.HomePage as HomePage
+import web.LoginPage as LoginPage
 
 HomePage homePage = new HomePage()
+
 LoginPage loginPage = new LoginPage()
 
-String LOGINPAGEHEADING = (String) FileOperations.getValueFromJsonFile(Constant.LOGIN_TESTDATA, "PageHeading")
+String EXPECTEDPOPUPHEADING = ((FileOperations.getValueFromJsonFile(Constant.HOME_TESTDATA, 'LeavePopupHeading')) as String)
+
+List<String> POPUPLABELS = FileOperations.getJsonArray(Constant.HOME_TESTDATA, 'LeavePopupLabels')
 
 homePage.webSetUp()
+
 loginPage.userLogin(FrameworkConfig.webUseremail, FrameworkConfig.webUserPassword)
 
-String pageHeading = homePage.userLogout()
+String popupHeading = homePage.clickOnHomePageItem(LocatorName.REQUESTTIMEOFF)
 
-Assert.assertEquals(pageHeading, LOGINPAGEHEADING)
+Assert.assertEquals(popupHeading, EXPECTEDPOPUPHEADING)
 
-WebUI.closeBrowser()
+List<String> actualLabels = homePage.getListOfHomePageItems(LocatorName.REQUESTTIMEOFF)
+
+Assert.assertEquals(actualLabels, POPUPLABELS)
+
+boolean isPopupFiledAndBtn = homePage.isHomePageElementVisible(LocatorName.REQUESTTIMEOFF)
+
+Assert.assertTrue(isPopupFiledAndBtn, 'All popup fileds and buttons are not visible.')
+
+homePage.quitDriver()

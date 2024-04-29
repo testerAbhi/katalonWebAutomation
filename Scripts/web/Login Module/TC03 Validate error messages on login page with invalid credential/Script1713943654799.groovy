@@ -18,6 +18,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import config.Constant
 import internal.GlobalVariable
 import utils.FileOperations
+import web.HomePage
 import web.LoginPage
 
 import org.openqa.selenium.Keys
@@ -25,10 +26,13 @@ import org.testng.Assert
 import org.testng.Assert as Keys
 
 LoginPage loginPage = new LoginPage()
+HomePage homePage = new HomePage()
+
 List<String> LOGINPAGEERRORS = FileOperations.getJsonArray(Constant.LOGIN_TESTDATA, 'ErrorList')
 
 loginPage.webSetUp()
 def errorList = loginPage.getLoginErrorsWithInvalidCredential(InvalidEmail, InvalidPassword)
 
 Assert.assertEquals(errorList, LOGINPAGEERRORS)
-WebUI.closeBrowser()
+
+homePage.quitDriver()
