@@ -36,7 +36,7 @@ public class BasePage {
 		WebUI.waitForPageLoad(GlobalVariable.Timeout, FailureHandling.CONTINUE_ON_FAILURE)
 		return DriverFactory.getWebDriver().getPageSource();
 	}
-	
+
 	public void webSetUp() {
 		WebUI.openBrowser('')
 		WebUI.maximizeWindow()

@@ -1,5 +1,5 @@
 package locatorCall
 
 public enum LocatorName  {
-	LOGIN
+	LOGIN, SIGNUP, SIGNUPERROR
 }

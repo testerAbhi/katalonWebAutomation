@@ -21,6 +21,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class HomePage extends BasePage{
+
+	public String userLogout() {
+		WebUI.click(findTestObject('Object Repository/web/Home Page/Button_User profile nav bar'))
+		WebUI.click(findTestObject('Object Repository/web/Home Page/Button_Logout'))
+		WebUI.click(findTestObject('Object Repository/web/Home Page/Button_Confirm logout'))
+		return WebUI.getText(findTestObject('Object Repository/web/Login Page/Text_Page Heading'))
+	}
 	
+	public def navigateAndGetText() {
+		
+	}
 	
 }
