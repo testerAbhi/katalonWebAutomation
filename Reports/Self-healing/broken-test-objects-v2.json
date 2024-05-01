@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Base Page/Text_Login poup heading",
+      "brokenLocator": "div[role\u003d\u0027dialog\u0027] h4",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Email address\u0027])[1]/preceding::h4[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/web/Signup Page/Input_Account name",
+      "brokenLocator": "input[name\u003d\u0027name\u0027]",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div/div/div/form/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/web/Signup Page/Input_Account name_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/web/Signup Page/Text_Page heading",
+      "brokenLocator": "h2.registerheading",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div/div/div/h2",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/web/Signup Page/Text_Page heading_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/web/Login Page/Input_Login Email",
+      "brokenLocator": "#email",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

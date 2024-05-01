@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02 Validate Login Page UI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb843617-6d13-4361-baee-065ce8aa8524</testCaseGuid>
+</TestCaseEntity>

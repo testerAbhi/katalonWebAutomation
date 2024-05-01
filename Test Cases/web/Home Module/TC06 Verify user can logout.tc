@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06 Verify user can logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2502fd8-8a45-448a-a513-a1c40ab6cb80</testCaseGuid>
+</TestCaseEntity>

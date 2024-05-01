@@ -1,0 +1,16 @@
+{
+	"HomePageHeading": "Welcome,",
+	"LoginPageTexts": [
+		"Login",
+		"Remember me",
+		"Forgot Password!",
+		"Log In",
+		"Or Login with",
+		"Don't have an account? Sign Up"
+	],
+	"PageHeading": "Login",
+	"ErrorList": [
+		"Please enter your email Address.", 
+		"Invalid credentials"
+	]	
+}

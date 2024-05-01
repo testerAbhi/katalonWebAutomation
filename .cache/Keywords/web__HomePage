@@ -1,0 +1,97 @@
+{
+  "keywordFileContentHash": "E710DD385ECEA7575EAFEC0F69FDBAA4",
+  "keywordClasses": [
+    {
+      "name": "web.HomePage",
+      "keywordMethods": [
+        {
+          "name": "userLogout",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "navigateAndGetText",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnTab",
+          "parameters": [
+            {
+              "name": "tab",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "clickOnHomePageItem",
+          "parameters": [
+            {
+              "name": "locEnum",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "locatorCall.LocatorName",
+                "unresolvedClassName": "LocatorName",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getListOfHomePageItems",
+          "parameters": [
+            {
+              "name": "locEnum",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "locatorCall.LocatorName",
+                "unresolvedClassName": "LocatorName",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "isHomePageElementVisible",
+          "parameters": [
+            {
+              "name": "locEnum",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "locatorCall.LocatorName",
+                "unresolvedClassName": "LocatorName",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

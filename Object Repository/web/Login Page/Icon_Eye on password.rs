@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Icon_Eye on password</name>
+   <tag></tag>
+   <elementGuidId>81f140ae-86d1-4474-ba8d-22d79459eae3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/div/form/div[2]/div/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa-eye-slash</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>64369d19-b538-4857-a8e2-42bdcf5a4163</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-eye-slash</value>
+      <webElementGuid>91c7305e-1577-4295-97a0-4f5811f57e9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;login-main-container&quot;]/div[@class=&quot;container form-container&quot;]/div[@class=&quot;login-flex-container&quot;]/div[@class=&quot;login-form-container fw-bolder d-flex flex-column justify-content-center align-items-center&quot;]/div[@class=&quot;loginformdiv&quot;]/form[@class=&quot;d-flex flex-column align-items-center justify-content-between loginform&quot;]/div[@class=&quot;mt-4 mb-3 w-100&quot;]/div[@class=&quot;d-flex position-relative&quot;]/span[@class=&quot;show-login-btn&quot;]/i[@class=&quot;fa fa-eye-slash&quot;]</value>
+      <webElementGuid>fdae62ef-828c-4b38-99b1-aa337117486a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div/form/div[2]/div/span/i</value>
+      <webElementGuid>7682efef-59e3-4e07-a483-e7b0faffb3af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>fb3146ec-4655-43c8-a5bd-7e7964130f17</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

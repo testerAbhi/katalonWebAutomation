@@ -1,0 +1,40 @@
+{
+  "keywordFileContentHash": "1EB6F7027EFFC7FFD384D629B9395999",
+  "keywordClasses": [
+    {
+      "name": "web.SignupPage",
+      "keywordMethods": [
+        {
+          "name": "moveToSignupPage",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "isSignupPageElementVisible",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getSignupPageTextList",
+          "parameters": [
+            {
+              "name": "locEnum",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "locatorCall.LocatorName",
+                "unresolvedClassName": "LocatorName",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

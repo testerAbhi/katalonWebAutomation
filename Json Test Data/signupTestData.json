@@ -1,0 +1,14 @@
+{
+	"SignupPageTexts": [
+		"Create your account",
+		".clovehr.com",
+		"By clicking Create Account you are agreeing to Privacy Policy of CloveHRMS",
+		"Or Signup with"
+	],
+	"SignupPageErrors": [
+		"Please add at least 3 charachters.",
+		"*Please enter valid phone no.",
+		"Passwords don't match.",
+		"Please add at least 3 charachter."
+	]
+}
