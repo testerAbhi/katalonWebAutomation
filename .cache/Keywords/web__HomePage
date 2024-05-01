@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "8C774164C2DD44CEF1CF6B3438845B0E",
+  "keywordFileContentHash": "F66C2A55B50680C0C73029567B582B13",
   "keywordClasses": [
     {
       "name": "web.HomePage",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
