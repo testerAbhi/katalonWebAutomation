@@ -21,4 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class Generic {
+	public static int generateRandomNumber(int max, int min) {
+		return min + (int) (Math.random() * ((max - min) + 1))
+	}
 }

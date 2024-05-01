@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05 Verify error messages on Signup page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65c77952-0686-42c7-a879-9ffd569984d7</testCaseGuid>
+</TestCaseEntity>

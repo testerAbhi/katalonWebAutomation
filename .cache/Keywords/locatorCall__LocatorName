@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "F7F05764EA8037EB8F5AEA31CA332990",
+  "keywordFileContentHash": "5F9ABC2726C3F3701C7D42BB77C96417",
   "keywordClasses": [
     {
       "name": "locatorCall.LocatorName",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

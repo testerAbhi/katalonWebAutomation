@@ -14,15 +14,25 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+
+import config.Constant
 import internal.GlobalVariable
+import utils.FileOperations
+import web.HomePage
+import web.LoginPage
 
+import org.openqa.selenium.Keys
+import org.testng.Assert
+import org.testng.Assert as Keys
 
-import org.openqa.selenium.Keys as Keys
-import config.Constant as Constant
-import utils.FileOperations as File
+LoginPage loginPage = new LoginPage()
+HomePage homePage = new HomePage()
 
-def value = File.getJsonArray(Constant.USER_DATAJSON, "List")
-println(value)
+List<String> LOGINPAGEERRORS = FileOperations.getJsonArray(Constant.LOGIN_TESTDATA, 'ErrorList')
 
-def data = File.getValueFromDataFile(Constant.USERDATA, "WebUserEmail")
-println data
+loginPage.webSetUp()
+def errorList = loginPage.getLoginErrorsWithInvalidCredential(InvalidEmail, InvalidPassword)
+
+Assert.assertEquals(errorList, LOGINPAGEERRORS)
+
+homePage.quitDriver()

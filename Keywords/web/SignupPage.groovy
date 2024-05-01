@@ -6,6 +6,8 @@ import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
+import locatorCall.LocatorName
+import utils.Generic
 
 public class SignupPage extends BasePage{
 
@@ -33,7 +35,31 @@ public class SignupPage extends BasePage{
 		return nameField && emailField && numberField && passwordField && confirmPasswordField && urlNameField && checkbox && createAccountBtn && signupImg && googleIcn
 	}
 
-	public List<String> getSignupPageTextList(){
-		return getListOfText(findTestObject('Object Repository/web/Signup Page/Text_Signup Page common'))
+	public List<String> getSignupPageTextList(LocatorName locEnum){
+		switch(locEnum) {
+			case locEnum.SIGNUP:
+				return getListOfText(findTestObject('Object Repository/web/Signup Page/Text_Signup Page common'))
+			case locEnum.SIGNUPERROR:
+				String invalidName = "12"
+				String invalidEmail = "abc@k.cc"
+				String invalidNumber = (String) Generic.generateRandomNumber(1000, 100)
+				String invalidPassword = (String) Generic.generateRandomNumber(1000, 100)
+
+				WebUI.setText(findTestObject('Object Repository/web/Signup Page/Input_Account name'), invalidName)
+				WebUI.setText(findTestObject('Object Repository/web/Signup Page/Input_User Email'), invalidEmail)
+				WebUI.setText(findTestObject('Object Repository/web/Signup Page/Input_Phone number'), invalidNumber)
+				WebUI.setText(findTestObject('Object Repository/web/Signup Page/Input_Password'), invalidNumber)
+				WebUI.setText(findTestObject('Object Repository/web/Signup Page/Input_Confirm password'), invalidPassword)
+				WebUI.setText(findTestObject('Object Repository/web/Signup Page/Input_URL preference'), invalidName)
+				WebUI.click(findTestObject('Object Repository/web/Signup Page/Checkbox_Privacy policy'))
+				WebUI.click(findTestObject('Object Repository/web/Signup Page/Button_Create account'))
+
+				List<String> list = new ArrayList()
+				list.add(WebUI.getText(findTestObject('Object Repository/web/Signup Page/Error Text_User name')))
+				list.add(WebUI.getText(findTestObject('Object Repository/web/Signup Page/Error Text_Mobile number')))
+				list.add(WebUI.getText(findTestObject('Object Repository/web/Signup Page/Error Text_Password not match')))
+				list.add(WebUI.getText(findTestObject('Object Repository/web/Signup Page/Error Text_Preference')))
+				return list
+		}
 	}
 }

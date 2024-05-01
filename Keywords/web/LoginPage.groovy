@@ -34,7 +34,20 @@ public class LoginPage extends BasePage{
 		return loginImg && eyeIcn && emailField && passwordField && googleIcn && loginBtn
 	}
 
-	public List<String> getLoginPageTextList(){
+	public def getLoginPageTextList(){
 		return getListOfText(findTestObject('Object Repository/web/Login Page/Text_Login page common'))
+	}
+	
+	public def getLoginErrorsWithInvalidCredential(def email, def password){
+		def list = new ArrayList()
+		
+		WebUI.setText(findTestObject('Object Repository/web/Login Page/Input_Login_password'), password)
+		WebUI.click(findTestObject('Object Repository/web/Login Page/Button_Log In'))
+		list.add(WebUI.getText(findTestObject('Object Repository/web/Login Page/Error Text_Please enter email')))
+		
+		WebUI.setText(findTestObject('Object Repository/web/Login Page/Input_Login Email'), email)
+		WebUI.click(findTestObject('Object Repository/web/Login Page/Button_Log In'))
+		list.add(WebUI.getText(findTestObject('Object Repository/web/Login Page/Text_Invalid toast message')))
+		return list
 	}
 }

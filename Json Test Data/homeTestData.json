@@ -1,0 +1,25 @@
+{
+	"NavigatedTextList": [
+		"Welcome,", 
+		"All Hands", 
+		"My Leaves", 
+		"My Weekly Timesheet", 
+		"Feedback", 
+		"My Requests", 
+		"More Filters", 
+		"Employee Policies", 
+		"Salary Break up"
+	],
+	"LeavePopupHeading": "Request Time Off",
+	"LeavePopupLabels": [
+		"Leave Type", 
+		"From Date *", 
+		"Session 1 *", 
+		"Session 2 *", 
+		"To Date *", 
+		"Session 1 *", 
+		"Session 2 *", 
+		"Leave Balance", 
+		"Reason"
+	]
+}
