@@ -3,7 +3,7 @@
    <description></description>
    <name>default</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>The web application url</description>
       <initValue>'https://testss.drealestategroup.com/login'</initValue>
@@ -12,33 +12,6 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'androidApp\\Kin.apk'</initValue>
-	<name>mobileAPKPath</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>15</initValue>
-      <name>Timeout</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>5</initValue>
-      <name>ShortTimeout</name>
-   </GlobalVariableEntity>
-</GlobalVariableEntities>
-<?xml version="1.0" encoding="UTF-8"?>
-<GlobalVariableEntities>
-   <description></description>
-   <name>default</name>
-   <tag></tag>
-   <defaultProfile>true</defaultProfile>
-   <GlobalVariableEntity>
-      <description>The web application url</description>
-      <initValue>'https://testss.drealestategroup.com/login'</initValue>
-      <name>webBaseURL</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>'path'</initValue>
       <name>mobileAPKPath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
