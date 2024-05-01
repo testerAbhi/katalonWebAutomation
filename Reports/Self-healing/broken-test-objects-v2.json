@@ -39,6 +39,6 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
-    }
+	}
   ]
 }

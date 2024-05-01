@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "96B162B4BC48BE2C969D8EEA0F554569",
+  "keywordFileContentHash": "6E25A0BCC4C8C57D93AD7A8A55D95CEB",
   "keywordClasses": [
     {
       "name": "mobile.BasePage",
@@ -34,7 +34,7 @@
               }
             }
           ],
-          "javadoc": "/**\n\t * Check if element present in timeout\n\t * @param to Katalon test object\n\t * @param timeout time to wait for element to show up\n\t * @return true if element present, otherwise false\n\t */"
+          "javadoc": "/**\r\n\t * Check if element present in timeout\r\n\t * @param to Katalon test object\r\n\t * @param timeout time to wait for element to show up\r\n\t * @return true if element present, otherwise false\r\n\t */"
         },
         {
           "name": "getCurrentSessionMobileDriver",
