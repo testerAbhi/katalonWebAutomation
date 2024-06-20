@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Web_Home,Chrome 125.0.0.0,,,18-06-2024 22:21:44,18-06-2024 22:26:51,5m - 7.047s,FAILED
+,,,,,,,
+Test Cases/web/Home Module/TC06 Verify user can logout,Chrome 125.0.0.0,,,18-06-2024 22:21:44,18-06-2024 22:22:03,18.549s,PASSED
+"LOGINPAGEHEADING = FileOperations.getValueFromJsonFile(LOGIN_TESTDATA, ""PageHeading"")",Chrome 125.0.0.0,,,18-06-2024 22:21:44,18-06-2024 22:21:44,0.086s,PASSED
+web.BasePage.webSetUp(),Chrome 125.0.0.0,,,18-06-2024 22:21:44,18-06-2024 22:21:50,5.662s,PASSED
+"web.LoginPage.userLogin(webUseremail, webUserPassword)",Chrome 125.0.0.0,,,18-06-2024 22:21:50,18-06-2024 22:22:00,9.919s,PASSED
+pageHeading = web.HomePage.userLogout(),Chrome 125.0.0.0,,,18-06-2024 22:22:00,18-06-2024 22:22:02,2.220s,PASSED
+"Assert.assertEquals(pageHeading, LOGINPAGEHEADING)",Chrome 125.0.0.0,,,18-06-2024 22:22:02,18-06-2024 22:22:02,0.014s,PASSED
+web.BasePage.quitDriver(),Chrome 125.0.0.0,,,18-06-2024 22:22:02,18-06-2024 22:22:03,0.372s,PASSED
+,,,,,,,
+Test Cases/web/Home Module/TC07 Validate navigation of each menu bar option on Home Page,Chrome 125.0.0.0,,,18-06-2024 22:24:49,18-06-2024 22:25:44,55.852s,FAILED
+"NAVIGATIONTEXTLIST = FileOperations.getJsonArray(HOME_TESTDATA, ""NavigatedTextList"")",Chrome 125.0.0.0,,,18-06-2024 22:24:49,18-06-2024 22:24:49,0.001s,PASSED
+web.BasePage.webSetUp(),Chrome 125.0.0.0,,,18-06-2024 22:24:49,18-06-2024 22:24:52,3.103s,PASSED
+"web.LoginPage.userLogin(webUseremail, webUserPassword)",Chrome 125.0.0.0,,,18-06-2024 22:24:52,18-06-2024 22:25:03,10.984s,PASSED
+pageTexts = web.HomePage.navigateAndGetText(),Chrome 125.0.0.0,,,18-06-2024 22:25:03,18-06-2024 22:25:44,41.741s,FAILED
+,,,,,,,
+Test Cases/web/Home Module/TC08 Validate Request leave popup on Home page,Chrome 125.0.0.0,,,18-06-2024 22:26:34,18-06-2024 22:26:51,16.889s,FAILED
+"EXPECTEDPOPUPHEADING = FileOperations.getValueFromJsonFile(HOME_TESTDATA, ""LeavePopupHeading"")",Chrome 125.0.0.0,,,18-06-2024 22:26:34,18-06-2024 22:26:34,0.003s,PASSED
+"POPUPLABELS = FileOperations.getJsonArray(HOME_TESTDATA, ""LeavePopupLabels"")",Chrome 125.0.0.0,,,18-06-2024 22:26:34,18-06-2024 22:26:34,0.003s,PASSED
+web.BasePage.webSetUp(),Chrome 125.0.0.0,,,18-06-2024 22:26:34,18-06-2024 22:26:37,2.939s,PASSED
+"web.LoginPage.userLogin(webUseremail, webUserPassword)",Chrome 125.0.0.0,,,18-06-2024 22:26:37,18-06-2024 22:26:47,10.026s,PASSED
+popupHeading = web.HomePage.clickOnHomePageItem(REQUESTTIMEOFF),Chrome 125.0.0.0,,,18-06-2024 22:26:47,18-06-2024 22:26:48,0.971s,PASSED
+"Assert.assertEquals(popupHeading, EXPECTEDPOPUPHEADING)",Chrome 125.0.0.0,,,18-06-2024 22:26:48,18-06-2024 22:26:48,0.001s,PASSED
+actualLabels = web.HomePage.getListOfHomePageItems(REQUESTTIMEOFF),Chrome 125.0.0.0,,,18-06-2024 22:26:48,18-06-2024 22:26:48,0.470s,FAILED
+"Assert.assertEquals(actualLabels, POPUPLABELS)",Chrome 125.0.0.0,,,18-06-2024 22:26:48,18-06-2024 22:26:48,0.001s,PASSED
+isPopupFiledAndBtn = web.HomePage.isHomePageElementVisible(REQUESTTIMEOFF),Chrome 125.0.0.0,,,18-06-2024 22:26:48,18-06-2024 22:26:50,1.960s,PASSED
+"Assert.assertTrue(isPopupFiledAndBtn, ""All popup fileds and buttons are not visible."")",Chrome 125.0.0.0,,,18-06-2024 22:26:50,18-06-2024 22:26:50,0.000s,PASSED
+web.BasePage.quitDriver(),Chrome 125.0.0.0,,,18-06-2024 22:26:50,18-06-2024 22:26:51,0.479s,PASSED

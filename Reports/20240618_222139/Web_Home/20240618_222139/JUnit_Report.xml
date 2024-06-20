@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Web_Home" time="307.047" tests="3" failures="2" errors="0">
+   <testsuite name="Web_Home" tests="3" failures="2" errors="0" time="307.047" skipped="0" timestamp="18-06-2024T22:21:44" hostname="Ankush - INNODS0055" id="Test Suites/Web_Home">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\AutomationKatalon\\katalonWebAutomation\\Reports\\20240618_222139\\Web_Home\\20240618_222139"/>
+         <property name="logFiles" value="D:\\AutomationKatalon\\katalonWebAutomation\\Reports\\20240618_222139\\Web_Home\\20240618_222139\\execution0.log"/>
+         <property name="attachments" value="D:\\AutomationKatalon\\katalonWebAutomation\\Reports\\20240618_222139\\Web_Home\\20240618_222139\\1718729577615.png, D:\\AutomationKatalon\\katalonWebAutomation\\Reports\\20240618_222139\\Web_Home\\20240618_222139\\1718729632543.png, D:\\AutomationKatalon\\katalonWebAutomation\\Reports\\20240618_222139\\Web_Home\\20240618_222139\\1718729688792.png, D:\\AutomationKatalon\\katalonWebAutomation\\Reports\\20240618_222139\\Web_Home\\20240618_222139\\1718729744653.png"/>
+         <property name="hostName" value="Ankush - INNODS0055"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="sessionId" value="463bcf31ceea9966a459501ae73938a8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/web/Home Module/TC06 Verify user can logout" time="18.549" classname="Test Cases/web/Home Module/TC06 Verify user can logout" status="PASSED">
+         <system-out><![CDATA[18-06-2024T22:21:44 - [TEST_CASE][PASSED] - Test Cases/web/Home Module/TC06 Verify user can logout: Test Cases/web/Home Module/TC06 Verify user can logout
+
+18-06-2024T22:21:44 - [TEST_STEP][PASSED] - LOGINPAGEHEADING = FileOperations.getValueFromJsonFile(LOGIN_TESTDATA, "PageHeading"): null
+
+18-06-2024T22:21:44 - [TEST_STEP][PASSED] - web.BasePage.webSetUp(): web.BasePage.webSetUp is PASSED
+
+18-06-2024T22:21:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-06-2024T22:21:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-06-2024T22:21:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-06-2024T22:21:47 - [MESSAGE][PASSED] - Current window maximized
+
+18-06-2024T22:21:50 - [MESSAGE][PASSED] - Navigate to 'https://testss.drealestategroup.com/login' successfully
+
+18-06-2024T22:21:50 - [MESSAGE][PASSED] - web.BasePage.webSetUp is PASSED
+
+18-06-2024T22:21:50 - [TEST_STEP][PASSED] - web.LoginPage.userLogin(webUseremail, webUserPassword): web.LoginPage.userLogin is PASSED
+
+18-06-2024T22:21:50 - [MESSAGE][PASSED] - Object 'Object Repository/web/Login Page/Text_Page Heading' is present
+
+18-06-2024T22:21:51 - [MESSAGE][PASSED] - Text 'srishti.agarwal+1@devstringx.com' is set on object 'Object Repository/web/Login Page/Input_Login Email'
+
+18-06-2024T22:21:52 - [MESSAGE][PASSED] - Text 'test@123' is set on object 'Object Repository/web/Login Page/Input_Login_password'
+
+18-06-2024T22:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Login Page/Checkbox_rememberMe' is clicked on
+
+18-06-2024T22:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Login Page/Button_Log In' is clicked on
+
+18-06-2024T22:22:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Page heading' is: 'Welcome,'
+
+18-06-2024T22:22:00 - [MESSAGE][PASSED] - web.LoginPage.userLogin is PASSED
+
+18-06-2024T22:22:00 - [TEST_STEP][PASSED] - pageHeading = web.HomePage.userLogout(): web.HomePage.userLogout is PASSED
+
+18-06-2024T22:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Home Page/Button_User profile nav bar' is clicked on
+
+18-06-2024T22:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Home Page/Button_Logout' is clicked on
+
+18-06-2024T22:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Home Page/Button_Confirm logout' is clicked on
+
+18-06-2024T22:22:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Login Page/Text_Page Heading' is: 'Login'
+
+18-06-2024T22:22:02 - [MESSAGE][PASSED] - web.HomePage.userLogout is PASSED
+
+18-06-2024T22:22:02 - [TEST_STEP][PASSED] - Assert.assertEquals(pageHeading, LOGINPAGEHEADING): null
+
+18-06-2024T22:22:02 - [TEST_STEP][PASSED] - web.BasePage.quitDriver(): web.BasePage.quitDriver is PASSED
+
+18-06-2024T22:22:02 - [MESSAGE][PASSED] - Browser is closed
+
+18-06-2024T22:22:03 - [MESSAGE][PASSED] - web.BasePage.quitDriver is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web/Home Module/TC07 Validate navigation of each menu bar option on Home Page" time="55.852" classname="Test Cases/web/Home Module/TC07 Validate navigation of each menu bar option on Home Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/web/Home Module/TC07 Validate navigation of each menu bar option on Home Page FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:957)&#xa;	at web.HomePage.navigateAndGetText(HomePage.groovy:31)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at TC07 Validate navigation of each menu bar option on Home Page.run(TC07 Validate navigation of each menu bar option on Home Page:12)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1718729499130.run(TempTestSuite1718729499130.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' located by '(//*[@class='module-name-heading' or @class='nav-link active' or contains(@class,'filterTextStyle')])[1]' not found&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 28 more&#xa;"/>
+         <system-out><![CDATA[18-06-2024T22:24:49 - [TEST_CASE][FAILED] - Test Cases/web/Home Module/TC07 Validate navigation of each menu bar option on Home Page: Test Cases/web/Home Module/TC07 Validate navigation of each menu bar option on Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:957)
+	at web.HomePage.navigateAndGetText(HomePage.groovy:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC07 Validate navigation of each menu bar option on Home Page.run(TC07 Validate navigation of each menu bar option on Home Page:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718729499130.run(TempTestSuite1718729499130.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' located by '(//*[@class='module-name-heading' or @class='nav-link active' or contains(@class,'filterTextStyle')])[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 28 more
+
+
+18-06-2024T22:24:49 - [TEST_STEP][PASSED] - NAVIGATIONTEXTLIST = FileOperations.getJsonArray(HOME_TESTDATA, "NavigatedTextList"): null
+
+18-06-2024T22:24:49 - [TEST_STEP][PASSED] - web.BasePage.webSetUp(): web.BasePage.webSetUp is PASSED
+
+18-06-2024T22:24:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+18-06-2024T22:24:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-06-2024T22:24:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-06-2024T22:24:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-06-2024T22:24:50 - [MESSAGE][PASSED] - Current window maximized
+
+18-06-2024T22:24:52 - [MESSAGE][PASSED] - Navigate to 'https://testss.drealestategroup.com/login' successfully
+
+18-06-2024T22:24:52 - [MESSAGE][PASSED] - web.BasePage.webSetUp is PASSED
+
+18-06-2024T22:24:52 - [TEST_STEP][PASSED] - web.LoginPage.userLogin(webUseremail, webUserPassword): web.LoginPage.userLogin is PASSED
+
+18-06-2024T22:24:52 - [MESSAGE][PASSED] - Object 'Object Repository/web/Login Page/Text_Page Heading' is present
+
+18-06-2024T22:24:53 - [MESSAGE][PASSED] - Text 'srishti.agarwal+1@devstringx.com' is set on object 'Object Repository/web/Login Page/Input_Login Email'
+
+18-06-2024T22:24:53 - [MESSAGE][PASSED] - Text 'test@123' is set on object 'Object Repository/web/Login Page/Input_Login_password'
+
+18-06-2024T22:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Login Page/Checkbox_rememberMe' is clicked on
+
+18-06-2024T22:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Login Page/Button_Log In' is clicked on
+
+18-06-2024T22:25:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Page heading' is: 'Welcome,'
+
+18-06-2024T22:25:03 - [MESSAGE][PASSED] - web.LoginPage.userLogin is PASSED
+
+18-06-2024T22:25:03 - [TEST_STEP][FAILED] - pageTexts = web.HomePage.navigateAndGetText(): Unable to get text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text'
+
+18-06-2024T22:25:03 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/web/Home Page/Links_Menu bar options
+
+18-06-2024T22:25:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+18-06-2024T22:25:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' is: 'Welcome,'
+
+18-06-2024T22:25:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+18-06-2024T22:25:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' is: 'All Hands'
+
+18-06-2024T22:25:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+18-06-2024T22:25:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' is: 'My Leaves'
+
+18-06-2024T22:25:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+18-06-2024T22:25:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' is: 'My Weekly Timesheet'
+
+18-06-2024T22:25:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+18-06-2024T22:25:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' is: 'Feedback'
+
+18-06-2024T22:25:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+18-06-2024T22:25:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' is: 'Salary Break up'
+
+18-06-2024T22:25:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+18-06-2024T22:25:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' is: 'Insights'
+
+18-06-2024T22:25:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+18-06-2024T22:25:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' is: 'More Filters'
+
+18-06-2024T22:25:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+18-06-2024T22:25:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[@class='module-name-heading' or @class='nav-link active' or contains(@class,'filterTextStyle')])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+18-06-2024T22:25:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/web/Home Page/Text_Menu bar navigation common Text'. Try using Self-healing.
+
+18-06-2024T22:25:43 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+18-06-2024T22:25:44 - [MESSAGE][WARNING] - [SELF-HEALING] javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression."}
+  (Session info: chrome=125.0.6422.142)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'INNODS0055', ip: '192.168.1.104', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\Ankush\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a8100c68f1c48bf1abb7f8f685d0b7e1
+*** Element info: {Using=xpath, value=}
+
+18-06-2024T22:25:44 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+18-06-2024T22:25:44 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:957)
+	at web.HomePage.navigateAndGetText(HomePage.groovy:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC07 Validate navigation of each menu bar option on Home Page.run(TC07 Validate navigation of each menu bar option on Home Page:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718729499130.run(TempTestSuite1718729499130.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' located by '(//*[@class='module-name-heading' or @class='nav-link active' or contains(@class,'filterTextStyle')])[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:957)
+	at web.HomePage.navigateAndGetText(HomePage.groovy:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1714375240242.run(Script1714375240242.groovy:12)
+	... 18 more
+)
+[[ATTACHMENT|D:\\AutomationKatalon\\katalonWebAutomation\\Reports\\20240618_222139\\Web_Home\\20240618_222139\\1718729744653.png]]
+
+18-06-2024T22:25:44 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text']]></system-out>
+         <system-err><![CDATA[18-06-2024T22:24:49 - [TEST_CASE][FAILED] - Test Cases/web/Home Module/TC07 Validate navigation of each menu bar option on Home Page: Test Cases/web/Home Module/TC07 Validate navigation of each menu bar option on Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:957)
+	at web.HomePage.navigateAndGetText(HomePage.groovy:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC07 Validate navigation of each menu bar option on Home Page.run(TC07 Validate navigation of each menu bar option on Home Page:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718729499130.run(TempTestSuite1718729499130.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' located by '(//*[@class='module-name-heading' or @class='nav-link active' or contains(@class,'filterTextStyle')])[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 28 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web/Home Module/TC08 Validate Request leave popup on Home page" time="16.889" classname="Test Cases/web/Home Module/TC08 Validate Request leave popup on Home page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/web/Home Module/TC08 Validate Request leave popup on Home page FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Object Object Repository/web/Home Page/Text_Leave popup labels is not present&#xa;	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)&#xa;	at web.BasePage.getListOfText(BasePage.groovy:48)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at web.HomePage.getListOfHomePageItems(HomePage.groovy:54)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at TC08 Validate Request leave popup on Home page.run(TC08 Validate Request leave popup on Home page:16)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1718729499130.run(TempTestSuite1718729499130.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[18-06-2024T22:26:34 - [TEST_CASE][FAILED] - Test Cases/web/Home Module/TC08 Validate Request leave popup on Home page: Test Cases/web/Home Module/TC08 Validate Request leave popup on Home page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/web/Home Page/Text_Leave popup labels is not present
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at web.BasePage.getListOfText(BasePage.groovy:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at web.HomePage.getListOfHomePageItems(HomePage.groovy:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC08 Validate Request leave popup on Home page.run(TC08 Validate Request leave popup on Home page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718729499130.run(TempTestSuite1718729499130.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+18-06-2024T22:26:34 - [TEST_STEP][PASSED] - EXPECTEDPOPUPHEADING = FileOperations.getValueFromJsonFile(HOME_TESTDATA, "LeavePopupHeading"): null
+
+18-06-2024T22:26:34 - [TEST_STEP][PASSED] - POPUPLABELS = FileOperations.getJsonArray(HOME_TESTDATA, "LeavePopupLabels"): null
+
+18-06-2024T22:26:34 - [TEST_STEP][PASSED] - web.BasePage.webSetUp(): web.BasePage.webSetUp is PASSED
+
+18-06-2024T22:26:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-06-2024T22:26:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-06-2024T22:26:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-06-2024T22:26:35 - [MESSAGE][PASSED] - Current window maximized
+
+18-06-2024T22:26:37 - [MESSAGE][PASSED] - Navigate to 'https://testss.drealestategroup.com/login' successfully
+
+18-06-2024T22:26:37 - [MESSAGE][PASSED] - web.BasePage.webSetUp is PASSED
+
+18-06-2024T22:26:37 - [TEST_STEP][PASSED] - web.LoginPage.userLogin(webUseremail, webUserPassword): web.LoginPage.userLogin is PASSED
+
+18-06-2024T22:26:37 - [MESSAGE][PASSED] - Object 'Object Repository/web/Login Page/Text_Page Heading' is present
+
+18-06-2024T22:26:38 - [MESSAGE][PASSED] - Text 'srishti.agarwal+1@devstringx.com' is set on object 'Object Repository/web/Login Page/Input_Login Email'
+
+18-06-2024T22:26:39 - [MESSAGE][PASSED] - Text 'test@123' is set on object 'Object Repository/web/Login Page/Input_Login_password'
+
+18-06-2024T22:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Login Page/Checkbox_rememberMe' is clicked on
+
+18-06-2024T22:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Login Page/Button_Log In' is clicked on
+
+18-06-2024T22:26:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Page heading' is: 'Welcome,'
+
+18-06-2024T22:26:47 - [MESSAGE][PASSED] - web.LoginPage.userLogin is PASSED
+
+18-06-2024T22:26:47 - [TEST_STEP][PASSED] - popupHeading = web.HomePage.clickOnHomePageItem(REQUESTTIMEOFF): web.HomePage.clickOnHomePageItem is PASSED
+
+18-06-2024T22:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Home Page/Button_Request time off' is clicked on
+
+18-06-2024T22:26:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Request leave popup heading' is: 'Request Time Off'
+
+18-06-2024T22:26:48 - [MESSAGE][PASSED] - web.HomePage.clickOnHomePageItem is PASSED
+
+18-06-2024T22:26:48 - [TEST_STEP][PASSED] - Assert.assertEquals(popupHeading, EXPECTEDPOPUPHEADING): null
+
+18-06-2024T22:26:48 - [TEST_STEP][FAILED] - actualLabels = web.HomePage.getListOfHomePageItems(REQUESTTIMEOFF): com.kms.katalon.core.exception.StepFailedException: Object Object Repository/web/Home Page/Text_Leave popup labels is not present
+
+18-06-2024T22:26:48 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/web/Home Page/Text_Leave popup labels
+
+18-06-2024T22:26:48 - [MESSAGE][FAILED] - Object Object Repository/web/Home Page/Text_Leave popup labels is not present
+
+18-06-2024T22:26:48 - [MESSAGE][FAILED] - com.kms.katalon.core.exception.StepFailedException: Object Object Repository/web/Home Page/Text_Leave popup labels is not present
+
+18-06-2024T22:26:48 - [TEST_STEP][PASSED] - Assert.assertEquals(actualLabels, POPUPLABELS): null
+
+18-06-2024T22:26:48 - [TEST_STEP][PASSED] - isPopupFiledAndBtn = web.HomePage.isHomePageElementVisible(REQUESTTIMEOFF): web.HomePage.isHomePageElementVisible is PASSED
+
+18-06-2024T22:26:49 - [MESSAGE][PASSED] - Object 'Object Repository/web/Home Page/Options_Select leave type' is visible
+
+18-06-2024T22:26:49 - [MESSAGE][PASSED] - Object 'Object Repository/web/Home Page/Input_Start date' is visible
+
+18-06-2024T22:26:49 - [MESSAGE][PASSED] - Object 'Object Repository/web/Home Page/Input_Last date' is visible
+
+18-06-2024T22:26:50 - [MESSAGE][PASSED] - Object 'Object Repository/web/Home Page/Input_Leave reason field' is visible
+
+18-06-2024T22:26:50 - [MESSAGE][PASSED] - Object 'Object Repository/web/Home Page/Button_Cancel Leave' is visible
+
+18-06-2024T22:26:50 - [MESSAGE][PASSED] - Object 'Object Repository/web/Home Page/Button_Apply Leave' is visible
+
+18-06-2024T22:26:50 - [MESSAGE][PASSED] - web.HomePage.isHomePageElementVisible is PASSED
+
+18-06-2024T22:26:50 - [TEST_STEP][PASSED] - Assert.assertTrue(isPopupFiledAndBtn, "All popup fileds and buttons are not visible."): null
+
+18-06-2024T22:26:50 - [TEST_STEP][PASSED] - web.BasePage.quitDriver(): web.BasePage.quitDriver is PASSED
+
+18-06-2024T22:26:51 - [MESSAGE][PASSED] - Browser is closed
+
+18-06-2024T22:26:51 - [MESSAGE][PASSED] - web.BasePage.quitDriver is PASSED]]></system-out>
+         <system-err><![CDATA[18-06-2024T22:26:34 - [TEST_CASE][FAILED] - Test Cases/web/Home Module/TC08 Validate Request leave popup on Home page: Test Cases/web/Home Module/TC08 Validate Request leave popup on Home page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/web/Home Page/Text_Leave popup labels is not present
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at web.BasePage.getListOfText(BasePage.groovy:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at web.HomePage.getListOfHomePageItems(HomePage.groovy:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC08 Validate Request leave popup on Home page.run(TC08 Validate Request leave popup on Home page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718729499130.run(TempTestSuite1718729499130.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-06-2024T22:21:44 - [TEST_SUITE][FAILED] - Web_Home: Test Cases/web/Home Module/TC07 Validate navigation of each menu bar option on Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:957)
+	at web.HomePage.navigateAndGetText(HomePage.groovy:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC07 Validate navigation of each menu bar option on Home Page.run(TC07 Validate navigation of each menu bar option on Home Page:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718729499130.run(TempTestSuite1718729499130.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' located by '(//*[@class='module-name-heading' or @class='nav-link active' or contains(@class,'filterTextStyle')])[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more]]></system-out>
+      <system-err><![CDATA[18-06-2024T22:21:44 - [TEST_SUITE][FAILED] - Web_Home: Test Cases/web/Home Module/TC07 Validate navigation of each menu bar option on Home Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to get text of object 'Object Repository/web/Home Page/Text_Menu bar navigation common Text'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(WebUiBuiltInKeywords.groovy:957)
+	at web.HomePage.navigateAndGetText(HomePage.groovy:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at TC07 Validate navigation of each menu bar option on Home Page.run(TC07 Validate navigation of each menu bar option on Home Page:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1718729499130.run(TempTestSuite1718729499130.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/web/Home Page/Text_Menu bar navigation common Text' located by '(//*[@class='module-name-heading' or @class='nav-link active' or contains(@class,'filterTextStyle')])[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more]]></system-err>
+   </testsuite>
+</testsuites>

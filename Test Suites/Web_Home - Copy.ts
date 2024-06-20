@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Web_Home</name>
+   <name>Web_Home - Copy</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>afb39da8-e0fc-44ce-a90f-41596b948c5a</testSuiteGuid>
+   <testSuiteGuid>9249c1b3-d3df-4d5f-b7af-30ca135f7501</testSuiteGuid>
    <testCaseLink>
       <guid>ba0c6f98-d38f-48ff-8361-d1b4531d98c5</guid>
       <isReuseDriver>false</isReuseDriver>
