@@ -6,9 +6,9 @@
 		"Or Signup with"
 	],
 	"SignupPageErrors": [
-		"Please add at least 3 charachters.",
+		"Please add at least 3 characters.",
 		"*Please enter valid phone no.",
 		"Passwords don't match.",
-		"Please add at least 3 charachter."
+		"Please add at least 3 characters."
 	]
 }

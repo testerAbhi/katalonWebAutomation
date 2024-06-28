@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Web_Home,,,,20-06-2024 15:26:57,20-06-2024 15:27:01,3.623s,FAILED
+,,,,,,,
+Test Cases/web/Home Module/TC06 Verify user can logout,,,,20-06-2024 15:26:58,20-06-2024 15:27:01,3.278s,FAILED
+"LOGINPAGEHEADING = FileOperations.getValueFromJsonFile(LOGIN_TESTDATA, ""PageHeading"")",,,,20-06-2024 15:26:58,20-06-2024 15:26:58,0.176s,PASSED
+web.BasePage.webSetUp(),,,,20-06-2024 15:26:58,20-06-2024 15:27:01,2.618s,FAILED

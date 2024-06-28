@@ -6,12 +6,12 @@
    <elementGuidId>e772ba7d-ff9f-402f-a03d-2cde20a5b3bb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.form-group.w-100.my-2.position-relative > div.errorMsg.text-danger.ml-3</value>
+         <key>XPATH</key>
+         <value>//input[@name='confirmPassword']/../../div[contains(@class,'errorMsg')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='password']/../../div[contains(@class,'errorMsg')]</value>
+         <key>CSS</key>
+         <value>div.form-group.w-100.my-2.position-relative > div.errorMsg.text-danger.ml-3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>feb46f76-debe-4b45-ad15-229c50f05e25</webElementGuid>
+      <webElementGuid>9a33964b-d691-4e5e-906a-e6060fa1d858</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>errorMsg text-danger ml-3</value>
-      <webElementGuid>6909f851-ad57-4462-89cb-a283c622171a</webElementGuid>
+      <webElementGuid>b00ea10a-341a-4cef-b535-b62b6d8aab5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Passwords don't match.</value>
-      <webElementGuid>f9f98cc1-acf3-44bb-b418-af518a0f7ae4</webElementGuid>
+      <webElementGuid>c786d524-289a-4bd5-b2c7-bfc8c33cdd36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;register-main-container&quot;]/div[@class=&quot;container form-container&quot;]/div[@class=&quot;register-flex-container&quot;]/div[@class=&quot;register-form-container fw-bolder d-flex flex-column justify-content-center align-items-center&quot;]/div[@class=&quot;registerformdiv&quot;]/form[@class=&quot;d-flex flex-column align-items-center justify-content-between registerform&quot;]/div[@class=&quot;form-group  w-100 my-2 position-relative&quot;]/div[@class=&quot;errorMsg text-danger ml-3&quot;]</value>
-      <webElementGuid>2d7e290c-5f23-4429-8de6-42e81b79be1d</webElementGuid>
+      <webElementGuid>88fee7b7-0a42-457d-afd9-6864494757c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div/div/div/form/div[4]/div[2]</value>
-      <webElementGuid>630bc4fb-b517-4dba-b903-dbb200444dae</webElementGuid>
+      <webElementGuid>8f9fd7af-8740-4b0a-8a68-a902a2b6012c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please add at least 3 charachters.'])[1]/following::div[10]</value>
-      <webElementGuid>46588ae7-0ce9-41dc-b74a-279150036924</webElementGuid>
+      <webElementGuid>d9808877-1c4f-434f-b051-0914a919c6c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please add at least 3 charachter.'])[1]/preceding::div[23]</value>
-      <webElementGuid>668317eb-ed36-4f74-80c0-6b083623d2ee</webElementGuid>
+      <webElementGuid>b8b018b2-591c-43f0-b24b-6686e08a37bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]</value>
-      <webElementGuid>d61e27cb-692a-495d-b883-3febdc5b578d</webElementGuid>
+      <webElementGuid>54a9618d-887e-4d57-8688-0009690d50df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = concat(&quot;Passwords don&quot; , &quot;'&quot; , &quot;t match.&quot;) or . = concat(&quot;Passwords don&quot; , &quot;'&quot; , &quot;t match.&quot;))]</value>
-      <webElementGuid>cca0bf99-b761-419b-810e-1519e9875d01</webElementGuid>
+      <webElementGuid>c6bd4dbd-a451-48de-a2d7-7f1fbb6fe739</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

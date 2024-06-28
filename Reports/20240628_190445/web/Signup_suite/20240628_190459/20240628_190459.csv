@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Signup_suite,Chrome 126.0.0.0,,,28-06-2024 19:06:13,28-06-2024 19:06:38,24.877s,PASSED
+,,,,,,,
+Test Cases/web/Signup Module/TC04 Validate Signup Page UI,Chrome 126.0.0.0,,,28-06-2024 19:06:13,28-06-2024 19:06:25,12.194s,PASSED
+"SIGNUPPAGETEXTLIST = FileOperations.getJsonArray(SIGNUP_TESTDATA, ""SignupPageTexts"")",Chrome 126.0.0.0,,,28-06-2024 19:06:14,28-06-2024 19:06:14,0.174s,PASSED
+web.BasePage.webSetUp(),Chrome 126.0.0.0,,,28-06-2024 19:06:14,28-06-2024 19:06:18,4.373s,PASSED
+web.SignupPage.moveToSignupPage(),Chrome 126.0.0.0,,,28-06-2024 19:06:18,28-06-2024 19:06:21,2.497s,PASSED
+isElement = web.SignupPage.isSignupPageElementVisible(),Chrome 126.0.0.0,,,28-06-2024 19:06:21,28-06-2024 19:06:24,3.560s,PASSED
+"Assert.assertTrue(isElement, ""All signup elements are not visible."")",Chrome 126.0.0.0,,,28-06-2024 19:06:24,28-06-2024 19:06:24,0.031s,PASSED
+pageTextList = web.SignupPage.getSignupPageTextList(SIGNUP),Chrome 126.0.0.0,,,28-06-2024 19:06:24,28-06-2024 19:06:25,0.575s,PASSED
+"Assert.assertEquals(pageTextList, SIGNUPPAGETEXTLIST)",Chrome 126.0.0.0,,,28-06-2024 19:06:25,28-06-2024 19:06:25,0.011s,PASSED
+web.BasePage.quitDriver(),Chrome 126.0.0.0,,,28-06-2024 19:06:25,28-06-2024 19:06:25,0.644s,PASSED
+,,,,,,,
+Test Cases/web/Signup Module/TC05 Verify error messages on Signup page,Chrome 126.0.0.0,,,28-06-2024 19:06:25,28-06-2024 19:06:38,12.448s,PASSED
+"ERRORLIST = FileOperations.getJsonArray(SIGNUP_TESTDATA, ""SignupPageErrors"")",Chrome 126.0.0.0,,,28-06-2024 19:06:26,28-06-2024 19:06:26,0.010s,PASSED
+web.BasePage.webSetUp(),Chrome 126.0.0.0,,,28-06-2024 19:06:26,28-06-2024 19:06:28,2.773s,PASSED
+web.SignupPage.moveToSignupPage(),Chrome 126.0.0.0,,,28-06-2024 19:06:28,28-06-2024 19:06:30,1.548s,PASSED
+actualErrors = web.SignupPage.getSignupPageTextList(SIGNUPERROR),Chrome 126.0.0.0,,,28-06-2024 19:06:30,28-06-2024 19:06:38,7.551s,PASSED
+"Assert.assertEquals(actualErrors, ERRORLIST)",Chrome 126.0.0.0,,,28-06-2024 19:06:38,28-06-2024 19:06:38,0.001s,PASSED
+web.BasePage.quitDriver(),Chrome 126.0.0.0,,,28-06-2024 19:06:38,28-06-2024 19:06:38,0.398s,PASSED

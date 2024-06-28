@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/mobile/Login/TC01 Verify Enter Email Screen UI","testCaseId":"Test Cases/mobile/Login/TC01 Verify Enter Email Screen UI","iterationVariableName":""}
+{"testCaseName":"Test Cases/mobile/Login/TC02 Verify Error Message On Email Screen","testCaseId":"Test Cases/mobile/Login/TC02 Verify Error Message On Email Screen","iterationVariableName":""}
+{"testCaseName":"Test Cases/mobile/Login/TC03 Verify Enter Password Screen UI","testCaseId":"Test Cases/mobile/Login/TC03 Verify Enter Password Screen UI","iterationVariableName":""}
+{"testCaseName":"Test Cases/mobile/Login/TC04 Verify Error Message On Password Screen","testCaseId":"Test Cases/mobile/Login/TC04 Verify Error Message On Password Screen","iterationVariableName":""}
+{"testCaseName":"Test Cases/mobile/Login/TC05 Validate Back Arrow On Password And Email Screen","testCaseId":"Test Cases/mobile/Login/TC05 Validate Back Arrow On Password And Email Screen","iterationVariableName":""}
+{"testCaseName":"Test Cases/mobile/Login/TC06 Verify User Login","testCaseId":"Test Cases/mobile/Login/TC06 Verify User Login","iterationVariableName":""}

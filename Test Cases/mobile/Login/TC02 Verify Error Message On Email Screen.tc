@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02 Verify Error Message On Email Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3863bcb-f5aa-4732-9839-e4cc90a2df56</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a760e21-85be-4d0f-990f-fdbf86c131c2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f703d883-aa5b-437c-9b9c-724271e0427b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eae5b4ca-1525-4dba-8318-df22cf54e9b9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Email Required'</defaultValue>
+      <description></description>
+      <id>5a760e21-85be-4d0f-990f-fdbf86c131c2</id>
+      <masked>false</masked>
+      <name>BlankFieldError</name>
+   </variable>
+   <variable>
+      <defaultValue>'abc@'</defaultValue>
+      <description></description>
+      <id>f703d883-aa5b-437c-9b9c-724271e0427b</id>
+      <masked>false</masked>
+      <name>InValidEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'Invalid email'</defaultValue>
+      <description></description>
+      <id>eae5b4ca-1525-4dba-8318-df22cf54e9b9</id>
+      <masked>false</masked>
+      <name>InvalidEmailError</name>
+   </variable>
+</TestCaseEntity>

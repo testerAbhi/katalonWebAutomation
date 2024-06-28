@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_suite" time="31.178" tests="3" failures="0" errors="0">
+   <testsuite name="Login_suite" tests="3" failures="0" errors="0" time="31.178" skipped="0" timestamp="28-06-2024T19:05:17" hostname="Ankush - INNODS0055" id="Test Suites/web/Login_suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\AutomationKatalon\\katalonWebAutomation\\Reports\\20240628_190445\\web\\Login_suite\\20240628_190453"/>
+         <property name="logFiles" value="D:\\AutomationKatalon\\katalonWebAutomation\\Reports\\20240628_190445\\web\\Login_suite\\20240628_190453\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ankush - INNODS0055"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.139"/>
+         <property name="sessionId" value="ffd24b44267c7c99e1c4cf00593496a0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/web/Login Module/TC01 Verify User Login" time="13.055" classname="Test Cases/web/Login Module/TC01 Verify User Login" status="PASSED">
+         <system-out><![CDATA[28-06-2024T19:05:17 - [TEST_CASE][PASSED] - Test Cases/web/Login Module/TC01 Verify User Login: Test Cases/web/Login Module/TC01 Verify User Login
+
+28-06-2024T19:05:18 - [TEST_STEP][PASSED] - HOMEPAGEHEADING = FileOperations.getValueFromJsonFile(LOGIN_TESTDATA, "HomePageHeading"): null
+
+28-06-2024T19:05:18 - [TEST_STEP][PASSED] - web.BasePage.webSetUp(): web.BasePage.webSetUp is PASSED
+
+28-06-2024T19:05:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-06-2024T19:05:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-06-2024T19:05:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-06-2024T19:05:21 - [MESSAGE][PASSED] - Current window maximized
+
+28-06-2024T19:05:22 - [MESSAGE][PASSED] - Navigate to 'https://testss.drealestategroup.com/login' successfully
+
+28-06-2024T19:05:22 - [MESSAGE][PASSED] - web.BasePage.webSetUp is PASSED
+
+28-06-2024T19:05:22 - [TEST_STEP][PASSED] - pageHeading = web.LoginPage.userLogin(webUseremail, webUserPassword): web.LoginPage.userLogin is PASSED
+
+28-06-2024T19:05:23 - [MESSAGE][PASSED] - Object 'Object Repository/web/Login Page/Text_Page Heading' is present
+
+28-06-2024T19:05:24 - [MESSAGE][PASSED] - Text 'srishti.agarwal+1@devstringx.com' is set on object 'Object Repository/web/Login Page/Input_Login Email'
+
+28-06-2024T19:05:25 - [MESSAGE][PASSED] - Text 'test@123' is set on object 'Object Repository/web/Login Page/Input_Login_password'
+
+28-06-2024T19:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Login Page/Checkbox_rememberMe' is clicked on
+
+28-06-2024T19:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Login Page/Button_Log In' is clicked on
+
+28-06-2024T19:05:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Home Page/Text_Page heading' is: 'Welcome,'
+
+28-06-2024T19:05:30 - [MESSAGE][PASSED] - web.LoginPage.userLogin is PASSED
+
+28-06-2024T19:05:30 - [TEST_STEP][PASSED] - Assert.assertEquals(pageHeading.trim(), HOMEPAGEHEADING): null
+
+28-06-2024T19:05:30 - [TEST_STEP][PASSED] - web.BasePage.quitDriver(): web.BasePage.quitDriver is PASSED
+
+28-06-2024T19:05:30 - [MESSAGE][PASSED] - Browser is closed
+
+28-06-2024T19:05:30 - [MESSAGE][PASSED] - web.BasePage.quitDriver is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web/Login Module/TC02 Validate Login Page UI" time="8.597" classname="Test Cases/web/Login Module/TC02 Validate Login Page UI" status="PASSED">
+         <system-out><![CDATA[28-06-2024T19:05:30 - [TEST_CASE][PASSED] - Test Cases/web/Login Module/TC02 Validate Login Page UI: Test Cases/web/Login Module/TC02 Validate Login Page UI
+
+28-06-2024T19:05:31 - [TEST_STEP][PASSED] - LOGINPAGETEXTLIST = FileOperations.getJsonArray(LOGIN_TESTDATA, "LoginPageTexts"): null
+
+28-06-2024T19:05:31 - [TEST_STEP][PASSED] - web.BasePage.webSetUp(): web.BasePage.webSetUp is PASSED
+
+28-06-2024T19:05:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-06-2024T19:05:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-06-2024T19:05:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-06-2024T19:05:32 - [MESSAGE][PASSED] - Current window maximized
+
+28-06-2024T19:05:36 - [MESSAGE][PASSED] - Navigate to 'https://testss.drealestategroup.com/login' successfully
+
+28-06-2024T19:05:36 - [MESSAGE][PASSED] - web.BasePage.webSetUp is PASSED
+
+28-06-2024T19:05:36 - [TEST_STEP][PASSED] - isElement = web.LoginPage.isLoginPageElementVisible(): web.LoginPage.isLoginPageElementVisible is PASSED
+
+28-06-2024T19:05:36 - [MESSAGE][PASSED] - Object 'Object Repository/web/Login Page/IMG_Login Page' is visible
+
+28-06-2024T19:05:37 - [MESSAGE][PASSED] - Object 'Object Repository/web/Login Page/Icon_Eye on password' is visible
+
+28-06-2024T19:05:37 - [MESSAGE][PASSED] - Object 'Object Repository/web/Login Page/Input_Login Email' is visible
+
+28-06-2024T19:05:37 - [MESSAGE][PASSED] - Object 'Object Repository/web/Login Page/Input_Login_password' is visible
+
+28-06-2024T19:05:37 - [MESSAGE][PASSED] - Object 'Object Repository/web/Login Page/IMG_Google icon' is visible
+
+28-06-2024T19:05:38 - [MESSAGE][PASSED] - Object 'Object Repository/web/Login Page/Button_Log In' is visible
+
+28-06-2024T19:05:38 - [MESSAGE][PASSED] - web.LoginPage.isLoginPageElementVisible is PASSED
+
+28-06-2024T19:05:38 - [TEST_STEP][PASSED] - Assert.assertTrue(isElement, "The all login page elements are not visible"): null
+
+28-06-2024T19:05:38 - [TEST_STEP][PASSED] - pageTexts = web.LoginPage.getLoginPageTextList(): web.LoginPage.getLoginPageTextList is PASSED
+
+28-06-2024T19:05:38 - [MESSAGE][PASSED] - Object 'Object Repository/web/Login Page/IMG_Login Page' is visible
+
+28-06-2024T19:05:38 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/web/Login Page/Text_Login page common
+
+28-06-2024T19:05:39 - [MESSAGE][PASSED] - web.LoginPage.getLoginPageTextList is PASSED
+
+28-06-2024T19:05:39 - [TEST_STEP][PASSED] - Assert.assertEquals(pageTexts, LOGINPAGETEXTLIST): null
+
+28-06-2024T19:05:39 - [TEST_STEP][PASSED] - web.BasePage.quitDriver(): web.BasePage.quitDriver is PASSED
+
+28-06-2024T19:05:39 - [MESSAGE][PASSED] - Browser is closed
+
+28-06-2024T19:05:39 - [MESSAGE][PASSED] - web.BasePage.quitDriver is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web/Login Module/TC03 Validate error messages on login page with invalid credential" time="9.258" classname="Test Cases/web/Login Module/TC03 Validate error messages on login page with invalid credential" status="PASSED">
+         <system-out><![CDATA[28-06-2024T19:05:39 - [TEST_CASE][PASSED] - Test Cases/web/Login Module/TC03 Validate error messages on login page with invalid credential: Test Cases/web/Login Module/TC03 Validate error messages on login page with invalid credential
+
+28-06-2024T19:05:39 - [TEST_STEP][PASSED] - LOGINPAGEERRORS = FileOperations.getJsonArray(LOGIN_TESTDATA, "ErrorList"): null
+
+28-06-2024T19:05:39 - [TEST_STEP][PASSED] - web.BasePage.webSetUp(): web.BasePage.webSetUp is PASSED
+
+28-06-2024T19:05:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-06-2024T19:05:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-06-2024T19:05:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-06-2024T19:05:41 - [MESSAGE][PASSED] - Current window maximized
+
+28-06-2024T19:05:44 - [MESSAGE][PASSED] - Navigate to 'https://testss.drealestategroup.com/login' successfully
+
+28-06-2024T19:05:44 - [MESSAGE][PASSED] - web.BasePage.webSetUp is PASSED
+
+28-06-2024T19:05:44 - [TEST_STEP][PASSED] - errorList = web.LoginPage.getLoginErrorsWithInvalidCredential(InvalidEmail, InvalidPassword): web.LoginPage.getLoginErrorsWithInvalidCredential is PASSED
+
+28-06-2024T19:05:45 - [MESSAGE][PASSED] - Text 'kin224' is set on object 'Object Repository/web/Login Page/Input_Login_password'
+
+28-06-2024T19:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Login Page/Button_Log In' is clicked on
+
+28-06-2024T19:05:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Login Page/Error Text_Please enter email' is: 'Please enter your email Address.'
+
+28-06-2024T19:05:47 - [MESSAGE][PASSED] - Text 'abc@in.aa' is set on object 'Object Repository/web/Login Page/Input_Login Email'
+
+28-06-2024T19:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Login Page/Button_Log In' is clicked on
+
+28-06-2024T19:05:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Login Page/Text_Invalid toast message' is: 'Invalid credentials'
+
+28-06-2024T19:05:48 - [MESSAGE][PASSED] - web.LoginPage.getLoginErrorsWithInvalidCredential is PASSED
+
+28-06-2024T19:05:48 - [TEST_STEP][PASSED] - Assert.assertEquals(errorList, LOGINPAGEERRORS): null
+
+28-06-2024T19:05:48 - [TEST_STEP][PASSED] - web.BasePage.quitDriver(): web.BasePage.quitDriver is PASSED
+
+28-06-2024T19:05:48 - [MESSAGE][PASSED] - Browser is closed
+
+28-06-2024T19:05:48 - [MESSAGE][PASSED] - web.BasePage.quitDriver is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-06-2024T19:05:17 - [TEST_SUITE][PASSED] - Login_suite: Test Cases/web/Login Module/TC03 Validate error messages on login page with invalid credential]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

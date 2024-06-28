@@ -6,12 +6,11 @@
    <elementGuidId>cffa6a18-61f5-4ff1-90ad-4cc0db0dd466</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//*[@class='module-name-heading' or @class='nav-link active' or contains(@class,'filterTextStyle')])[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//*[@class='module-name-heading' or @class='nav-link active' or @class='nav-link  active' or contains(@class,'filterTextStyle')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
