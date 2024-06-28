@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Signup_suite" time="24.877" tests="2" failures="0" errors="0">
+   <testsuite name="Signup_suite" tests="2" failures="0" errors="0" time="24.877" skipped="0" timestamp="28-06-2024T19:06:13" hostname="Ankush - INNODS0055" id="Test Suites/web/Signup_suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\AutomationKatalon\\katalonWebAutomation\\Reports\\20240628_190445\\web\\Signup_suite\\20240628_190459"/>
+         <property name="logFiles" value="D:\\AutomationKatalon\\katalonWebAutomation\\Reports\\20240628_190445\\web\\Signup_suite\\20240628_190459\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Ankush - INNODS0055"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.139"/>
+         <property name="sessionId" value="df61c1df2d21aa41f0ec8457c059b72c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/web/Signup Module/TC04 Validate Signup Page UI" time="12.194" classname="Test Cases/web/Signup Module/TC04 Validate Signup Page UI" status="PASSED">
+         <system-out><![CDATA[28-06-2024T19:06:13 - [TEST_CASE][PASSED] - Test Cases/web/Signup Module/TC04 Validate Signup Page UI: Test Cases/web/Signup Module/TC04 Validate Signup Page UI
+
+28-06-2024T19:06:14 - [TEST_STEP][PASSED] - SIGNUPPAGETEXTLIST = FileOperations.getJsonArray(SIGNUP_TESTDATA, "SignupPageTexts"): null
+
+28-06-2024T19:06:14 - [TEST_STEP][PASSED] - web.BasePage.webSetUp(): web.BasePage.webSetUp is PASSED
+
+28-06-2024T19:06:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-06-2024T19:06:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-06-2024T19:06:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-06-2024T19:06:17 - [MESSAGE][PASSED] - Current window maximized
+
+28-06-2024T19:06:18 - [MESSAGE][PASSED] - Navigate to 'https://testss.drealestategroup.com/login' successfully
+
+28-06-2024T19:06:18 - [MESSAGE][PASSED] - web.BasePage.webSetUp is PASSED
+
+28-06-2024T19:06:18 - [TEST_STEP][PASSED] - web.SignupPage.moveToSignupPage(): web.SignupPage.moveToSignupPage is PASSED
+
+28-06-2024T19:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Signup Page/Button_Signup' is clicked on
+
+28-06-2024T19:06:21 - [MESSAGE][PASSED] - Object 'Object Repository/web/Signup Page/Text_Page heading' is visible
+
+28-06-2024T19:06:21 - [MESSAGE][PASSED] - web.SignupPage.moveToSignupPage is PASSED
+
+28-06-2024T19:06:21 - [TEST_STEP][PASSED] - isElement = web.SignupPage.isSignupPageElementVisible(): web.SignupPage.isSignupPageElementVisible is PASSED
+
+28-06-2024T19:06:21 - [MESSAGE][PASSED] - Object 'Object Repository/web/Signup Page/Input_Account name' is visible
+
+28-06-2024T19:06:21 - [MESSAGE][PASSED] - Object 'Object Repository/web/Signup Page/Input_User Email' is visible
+
+28-06-2024T19:06:22 - [MESSAGE][PASSED] - Object 'Object Repository/web/Signup Page/Input_Phone number' is visible
+
+28-06-2024T19:06:22 - [MESSAGE][PASSED] - Object 'Object Repository/web/Signup Page/Input_Password' is visible
+
+28-06-2024T19:06:22 - [MESSAGE][PASSED] - Object 'Object Repository/web/Signup Page/Input_Confirm password' is visible
+
+28-06-2024T19:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/web/Signup Page/Input_URL preference' is visible
+
+28-06-2024T19:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/web/Signup Page/Checkbox_Privacy policy' is visible
+
+28-06-2024T19:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/web/Signup Page/Button_Create account' is visible
+
+28-06-2024T19:06:24 - [MESSAGE][PASSED] - Object 'Object Repository/web/Signup Page/IMG_Signup page' is visible
+
+28-06-2024T19:06:24 - [MESSAGE][PASSED] - Object 'Object Repository/web/Signup Page/IMG_Google icon' is visible
+
+28-06-2024T19:06:24 - [MESSAGE][PASSED] - web.SignupPage.isSignupPageElementVisible is PASSED
+
+28-06-2024T19:06:24 - [TEST_STEP][PASSED] - Assert.assertTrue(isElement, "All signup elements are not visible."): null
+
+28-06-2024T19:06:24 - [TEST_STEP][PASSED] - pageTextList = web.SignupPage.getSignupPageTextList(SIGNUP): web.SignupPage.getSignupPageTextList is PASSED
+
+28-06-2024T19:06:25 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/web/Signup Page/Text_Signup Page common
+
+28-06-2024T19:06:25 - [MESSAGE][PASSED] - web.SignupPage.getSignupPageTextList is PASSED
+
+28-06-2024T19:06:25 - [TEST_STEP][PASSED] - Assert.assertEquals(pageTextList, SIGNUPPAGETEXTLIST): null
+
+28-06-2024T19:06:25 - [TEST_STEP][PASSED] - web.BasePage.quitDriver(): web.BasePage.quitDriver is PASSED
+
+28-06-2024T19:06:25 - [MESSAGE][PASSED] - Browser is closed
+
+28-06-2024T19:06:25 - [MESSAGE][PASSED] - web.BasePage.quitDriver is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/web/Signup Module/TC05 Verify error messages on Signup page" time="12.448" classname="Test Cases/web/Signup Module/TC05 Verify error messages on Signup page" status="PASSED">
+         <system-out><![CDATA[28-06-2024T19:06:25 - [TEST_CASE][PASSED] - Test Cases/web/Signup Module/TC05 Verify error messages on Signup page: Test Cases/web/Signup Module/TC05 Verify error messages on Signup page
+
+28-06-2024T19:06:26 - [TEST_STEP][PASSED] - ERRORLIST = FileOperations.getJsonArray(SIGNUP_TESTDATA, "SignupPageErrors"): null
+
+28-06-2024T19:06:26 - [TEST_STEP][PASSED] - web.BasePage.webSetUp(): web.BasePage.webSetUp is PASSED
+
+28-06-2024T19:06:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-06-2024T19:06:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-06-2024T19:06:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-06-2024T19:06:27 - [MESSAGE][PASSED] - Current window maximized
+
+28-06-2024T19:06:28 - [MESSAGE][PASSED] - Navigate to 'https://testss.drealestategroup.com/login' successfully
+
+28-06-2024T19:06:28 - [MESSAGE][PASSED] - web.BasePage.webSetUp is PASSED
+
+28-06-2024T19:06:28 - [TEST_STEP][PASSED] - web.SignupPage.moveToSignupPage(): web.SignupPage.moveToSignupPage is PASSED
+
+28-06-2024T19:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Signup Page/Button_Signup' is clicked on
+
+28-06-2024T19:06:30 - [MESSAGE][PASSED] - Object 'Object Repository/web/Signup Page/Text_Page heading' is visible
+
+28-06-2024T19:06:30 - [MESSAGE][PASSED] - web.SignupPage.moveToSignupPage is PASSED
+
+28-06-2024T19:06:30 - [TEST_STEP][PASSED] - actualErrors = web.SignupPage.getSignupPageTextList(SIGNUPERROR): web.SignupPage.getSignupPageTextList is PASSED
+
+28-06-2024T19:06:31 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/web/Signup Page/Input_Account name'
+
+28-06-2024T19:06:32 - [MESSAGE][PASSED] - Text 'abc@k.cc' is set on object 'Object Repository/web/Signup Page/Input_User Email'
+
+28-06-2024T19:06:32 - [MESSAGE][PASSED] - Text '759' is set on object 'Object Repository/web/Signup Page/Input_Phone number'
+
+28-06-2024T19:06:33 - [MESSAGE][PASSED] - Text '759' is set on object 'Object Repository/web/Signup Page/Input_Password'
+
+28-06-2024T19:06:34 - [MESSAGE][PASSED] - Text '498' is set on object 'Object Repository/web/Signup Page/Input_Confirm password'
+
+28-06-2024T19:06:35 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/web/Signup Page/Input_URL preference'
+
+28-06-2024T19:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Signup Page/Checkbox_Privacy policy' is clicked on
+
+28-06-2024T19:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/web/Signup Page/Button_Create account' is clicked on
+
+28-06-2024T19:06:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Signup Page/Error Text_User name' is: 'Please add at least 3 characters.'
+
+28-06-2024T19:06:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Signup Page/Error Text_Mobile number' is: '*Please enter valid phone no.'
+
+28-06-2024T19:06:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Signup Page/Error Text_Password not match' is: 'Passwords don't match.'
+
+28-06-2024T19:06:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/web/Signup Page/Error Text_Preference' is: 'Please add at least 3 characters.'
+
+28-06-2024T19:06:38 - [MESSAGE][PASSED] - web.SignupPage.getSignupPageTextList is PASSED
+
+28-06-2024T19:06:38 - [TEST_STEP][PASSED] - Assert.assertEquals(actualErrors, ERRORLIST): null
+
+28-06-2024T19:06:38 - [TEST_STEP][PASSED] - web.BasePage.quitDriver(): web.BasePage.quitDriver is PASSED
+
+28-06-2024T19:06:38 - [MESSAGE][PASSED] - Browser is closed
+
+28-06-2024T19:06:38 - [MESSAGE][PASSED] - web.BasePage.quitDriver is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-06-2024T19:06:13 - [TEST_SUITE][PASSED] - Signup_suite: Test Cases/web/Signup Module/TC05 Verify error messages on Signup page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

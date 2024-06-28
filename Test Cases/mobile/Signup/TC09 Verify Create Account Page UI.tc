@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09 Verify Create Account Page UI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d5d45a3-5ab4-474e-aa43-c3b111f6dd94</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7dbb1ca5-6956-494c-b82b-9896c304b9d4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e379f22e-72a0-49ca-a700-dbdef3f17a7b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2edd2e98-f649-4318-9060-1027be7b2b47</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94f39746-eca6-495c-afdc-0346652c8626</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5466a241-26c4-4a82-b17c-9bddd29875b1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c7c5061-6e1b-48d1-bdcc-dfe3d7f0dd65</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Kin'</defaultValue>
+      <description></description>
+      <id>7dbb1ca5-6956-494c-b82b-9896c304b9d4</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'User'</defaultValue>
+      <description></description>
+      <id>e379f22e-72a0-49ca-a700-dbdef3f17a7b</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Create your account'</defaultValue>
+      <description></description>
+      <id>2edd2e98-f649-4318-9060-1027be7b2b47</id>
+      <masked>false</masked>
+      <name>CreateAccountTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Passwords must contain the following:'</defaultValue>
+      <description></description>
+      <id>94f39746-eca6-495c-afdc-0346652c8626</id>
+      <masked>false</masked>
+      <name>PasswordInstruction</name>
+   </variable>
+   <variable>
+      <defaultValue>['Have at least one lower case letter', 'Have at least one number', 'Be at least 6 characters']</defaultValue>
+      <description></description>
+      <id>5466a241-26c4-4a82-b17c-9bddd29875b1</id>
+      <masked>false</masked>
+      <name>PasswordSuggestions</name>
+   </variable>
+   <variable>
+      <defaultValue>'Create Account'</defaultValue>
+      <description></description>
+      <id>7c7c5061-6e1b-48d1-bdcc-dfe3d7f0dd65</id>
+      <masked>false</masked>
+      <name>CreateAccountButtonText</name>
+   </variable>
+</TestCaseEntity>

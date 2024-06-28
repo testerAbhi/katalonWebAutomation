@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01 Verify Enter Email Screen UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a2c3ead-c8be-48f2-ac2f-7e10a86e4455</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36ef3fbf-acd8-4c4d-9a7a-9a76b910ed78</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>799e8f76-66fe-424a-9646-a6153201c681</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>88f4c3bf-70c2-41a7-8db7-ed8fc1b7b42d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Provide your email to login/sign up'</defaultValue>
+      <description></description>
+      <id>36ef3fbf-acd8-4c4d-9a7a-9a76b910ed78</id>
+      <masked>false</masked>
+      <name>PageTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Are you a member of The Wildest? Use the same login info.'</defaultValue>
+      <description></description>
+      <id>799e8f76-66fe-424a-9646-a6153201c681</id>
+      <masked>false</masked>
+      <name>LoginInfo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Continue'</defaultValue>
+      <description></description>
+      <id>88f4c3bf-70c2-41a7-8db7-ed8fc1b7b42d</id>
+      <masked>false</masked>
+      <name>ContinueBtnText</name>
+   </variable>
+</TestCaseEntity>

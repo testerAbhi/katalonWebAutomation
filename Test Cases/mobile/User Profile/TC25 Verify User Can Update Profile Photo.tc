@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC25 Verify User Can Update Profile Photo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10fe3cc5-dd2b-4519-abdc-1fdfdeb324e9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>32510e61-cb9b-42d8-8347-e91f75640453</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Photo updated!'</defaultValue>
+      <description></description>
+      <id>32510e61-cb9b-42d8-8347-e91f75640453</id>
+      <masked>false</masked>
+      <name>SuccessMessage</name>
+   </variable>
+</TestCaseEntity>

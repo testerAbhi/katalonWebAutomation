@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/web/Login Module/TC01 Verify User Login","testCaseId":"Test Cases/web/Login Module/TC01 Verify User Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/web/Login Module/TC02 Validate Login Page UI","testCaseId":"Test Cases/web/Login Module/TC02 Validate Login Page UI","iterationVariableName":""}
+{"testCaseName":"Test Cases/web/Login Module/TC03 Validate error messages on login page with invalid credential","testCaseId":"Test Cases/web/Login Module/TC03 Validate error messages on login page with invalid credential","iterationVariableName":""}

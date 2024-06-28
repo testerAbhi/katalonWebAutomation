@@ -5,10 +5,11 @@
 		"My Leaves", 
 		"My Weekly Timesheet", 
 		"Feedback", 
-		"My Requests", 
+		"Salary Break up",
+		"Insights",
 		"More Filters", 
-		"Employee Policies", 
-		"Salary Break up"
+		"Insights"
+		
 	],
 	"LeavePopupHeading": "Request Time Off",
 	"LeavePopupLabels": [

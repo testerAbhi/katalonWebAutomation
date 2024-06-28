@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginSuite,,,,28-06-2024 17:21:31,28-06-2024 17:22:21,50.164s,ERROR
+,,,,,,,
+Test Cases/mobile/Login/TC01 Verify Enter Email Screen UI,,,,28-06-2024 17:21:31,28-06-2024 17:22:19,47.252s,PASSED
+"startApplication(mobileAPKPath, true)",,,,28-06-2024 17:21:32,28-06-2024 17:22:11,38.838s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/mobile/Login/Login Base Objects/ContinueWithEmailBtn""), Timeout)",,,,28-06-2024 17:22:11,28-06-2024 17:22:17,5.895s,PASSED
+closeApplication(),,,,28-06-2024 17:22:17,28-06-2024 17:22:19,2.083s,PASSED
+,,,,,,,
+Test Cases/mobile/Login/TC02 Verify Error Message On Email Screen,,,,28-06-2024 17:22:19,28-06-2024 17:22:19,0.059s,ERROR
+"startApplication(AppPath, true)",,,,28-06-2024 17:22:19,28-06-2024 17:22:19,0.006s,ERROR
+,,,,,,,
+Test Cases/mobile/Login/TC03 Verify Enter Password Screen UI,,,,28-06-2024 17:22:20,28-06-2024 17:22:20,0.102s,ERROR
+"startApplication(AppPath, true)",,,,28-06-2024 17:22:20,28-06-2024 17:22:20,0.017s,ERROR
+,,,,,,,
+Test Cases/mobile/Login/TC04 Verify Error Message On Password Screen,,,,28-06-2024 17:22:21,28-06-2024 17:22:21,0.052s,ERROR
+"startApplication(AppPath, true)",,,,28-06-2024 17:22:21,28-06-2024 17:22:21,0.009s,ERROR
+,,,,,,,
+Test Cases/mobile/Login/TC05 Validate Back Arrow On Password And Email Screen,,,,28-06-2024 17:22:21,28-06-2024 17:22:21,0.055s,ERROR
+"startApplication(AppPath, true)",,,,28-06-2024 17:22:21,28-06-2024 17:22:21,0.004s,ERROR
+,,,,,,,
+Test Cases/mobile/Login/TC06 Verify User Login,,,,28-06-2024 17:22:21,28-06-2024 17:22:21,0.034s,ERROR
+"startApplication(AppPath, true)",,,,28-06-2024 17:22:21,28-06-2024 17:22:21,0.004s,ERROR

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21 Verify Account Settings Page UI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>79ea495e-3db5-413d-a9d8-258e96e57ed1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c9cc8d72-2ec1-42de-a28f-af6326eded78</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Account settings'</defaultValue>
+      <description></description>
+      <id>c9cc8d72-2ec1-42de-a28f-af6326eded78</id>
+      <masked>false</masked>
+      <name>ScreenTitle</name>
+   </variable>
+</TestCaseEntity>

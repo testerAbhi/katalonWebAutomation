@@ -34,6 +34,7 @@ public class LoginPage extends BasePage {
 
 	@Keyword
 	def getLoginPageTextList() {
+		WebUI.waitForElementVisible(findTestObject('Object Repository/web/Login Page/IMG_Login Page'),GlobalVariable.ShortTimeout)
 		return getListOfText(findTestObject('Object Repository/web/Login Page/Text_Login page common'))
 	}
 

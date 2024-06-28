@@ -39,13 +39,11 @@ public class BasePage {
 			for(WebElement element: elements) {
 				list.add(element.getText().replaceAll("\\n", " ").trim())
 			}
+			print(list)
 			return list;
 		}
 		catch (StaleElementReferenceException e) {
 			return getListOfText(to);
-		}
-		finally {
-			KeywordUtil.markFailed("Object " + to.getObjectId() + " is not present")
 		}
 	}
 

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_suite,Chrome 126.0.0.0,,,28-06-2024 19:05:17,28-06-2024 19:05:48,31.178s,PASSED
+,,,,,,,
+Test Cases/web/Login Module/TC01 Verify User Login,Chrome 126.0.0.0,,,28-06-2024 19:05:17,28-06-2024 19:05:30,13.055s,PASSED
+"HOMEPAGEHEADING = FileOperations.getValueFromJsonFile(LOGIN_TESTDATA, ""HomePageHeading"")",Chrome 126.0.0.0,,,28-06-2024 19:05:18,28-06-2024 19:05:18,0.145s,PASSED
+web.BasePage.webSetUp(),Chrome 126.0.0.0,,,28-06-2024 19:05:18,28-06-2024 19:05:22,4.196s,PASSED
+"pageHeading = web.LoginPage.userLogin(webUseremail, webUserPassword)",Chrome 126.0.0.0,,,28-06-2024 19:05:22,28-06-2024 19:05:30,7.710s,PASSED
+"Assert.assertEquals(pageHeading.trim(), HOMEPAGEHEADING)",Chrome 126.0.0.0,,,28-06-2024 19:05:30,28-06-2024 19:05:30,0.024s,PASSED
+web.BasePage.quitDriver(),Chrome 126.0.0.0,,,28-06-2024 19:05:30,28-06-2024 19:05:30,0.616s,PASSED
+,,,,,,,
+Test Cases/web/Login Module/TC02 Validate Login Page UI,Chrome 126.0.0.0,,,28-06-2024 19:05:30,28-06-2024 19:05:39,8.597s,PASSED
+"LOGINPAGETEXTLIST = FileOperations.getJsonArray(LOGIN_TESTDATA, ""LoginPageTexts"")",Chrome 126.0.0.0,,,28-06-2024 19:05:31,28-06-2024 19:05:31,0.078s,PASSED
+web.BasePage.webSetUp(),Chrome 126.0.0.0,,,28-06-2024 19:05:31,28-06-2024 19:05:36,5.075s,PASSED
+isElement = web.LoginPage.isLoginPageElementVisible(),Chrome 126.0.0.0,,,28-06-2024 19:05:36,28-06-2024 19:05:38,2.053s,PASSED
+"Assert.assertTrue(isElement, ""The all login page elements are not visible"")",Chrome 126.0.0.0,,,28-06-2024 19:05:38,28-06-2024 19:05:38,0.004s,PASSED
+pageTexts = web.LoginPage.getLoginPageTextList(),Chrome 126.0.0.0,,,28-06-2024 19:05:38,28-06-2024 19:05:39,0.750s,PASSED
+"Assert.assertEquals(pageTexts, LOGINPAGETEXTLIST)",Chrome 126.0.0.0,,,28-06-2024 19:05:39,28-06-2024 19:05:39,0.011s,PASSED
+web.BasePage.quitDriver(),Chrome 126.0.0.0,,,28-06-2024 19:05:39,28-06-2024 19:05:39,0.406s,PASSED
+,,,,,,,
+Test Cases/web/Login Module/TC03 Validate error messages on login page with invalid credential,Chrome 126.0.0.0,,,28-06-2024 19:05:39,28-06-2024 19:05:48,9.258s,PASSED
+"LOGINPAGEERRORS = FileOperations.getJsonArray(LOGIN_TESTDATA, ""ErrorList"")",Chrome 126.0.0.0,,,28-06-2024 19:05:39,28-06-2024 19:05:39,0.003s,PASSED
+web.BasePage.webSetUp(),Chrome 126.0.0.0,,,28-06-2024 19:05:39,28-06-2024 19:05:44,4.885s,PASSED
+"errorList = web.LoginPage.getLoginErrorsWithInvalidCredential(InvalidEmail, InvalidPassword)",Chrome 126.0.0.0,,,28-06-2024 19:05:44,28-06-2024 19:05:48,3.568s,PASSED
+"Assert.assertEquals(errorList, LOGINPAGEERRORS)",Chrome 126.0.0.0,,,28-06-2024 19:05:48,28-06-2024 19:05:48,0.002s,PASSED
+web.BasePage.quitDriver(),Chrome 126.0.0.0,,,28-06-2024 19:05:48,28-06-2024 19:05:48,0.475s,PASSED

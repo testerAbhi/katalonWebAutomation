@@ -1,0 +1,177 @@
+[35m[Appium][39m Welcome to Appium v2.1.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m55651[39m }
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[35m[Appium][39m Appium REST http interface listener started on http://0.0.0.0:55651/wd/hub
+[35m[Appium][39m You can provide the following URLs in your client code to connect to this server:
+[35m[Appium][39m 	http://192.168.0.139:55651/wd/hub
+[35m[Appium][39m 	http://127.0.0.1:55651/wd/hub (only accessible from the same host)
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - uiautomator2@2.29.11 (automationName 'UiAutomator2')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"desiredCapabilities":{"appium:systemPort":55650,"appium:newCommandTimeout":1800,"appium:automationName":"uiautomator2","appium:fullReset":true,"appium:platformVersion":"13","appium:deviceId":"","appium:noReset":false,"appium:udid":"emulator-5554","appium:autoGrantPermissions":true,"appium:platformName":"ANDROID","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 13)","platformName":"Android","appium:app":"D:\\AutomationKatalon\\katalonWebAutomation\\androidApp\\Kin.apk"},"capabilities":{"firstMatch":[{"appium:app":"D:\\AutomationKatalon\\katalonWebAutomation\\androidApp\\Kin.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 13)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"13","appium:systemPort":55650,"appium:udid":"emulator-5554","platformName":"android"}]}}[39m
+[38;5;32m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=android'
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\Ankush\.appium\node_modules\appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@c0c4][0m Appium v2.1.3 creating new AndroidUiautomator2Driver (v2.29.11) session
+[38;5;16m[AppiumDriver@c0c4][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@c0c4][0m Appium's BaseDriver version is 9.3.20
+[38;5;16m[AppiumDriver@c0c4][0m AndroidUiautomator2Driver's BaseDriver version is 9.3.20
+[38;5;48m[AndroidUiautomator2Driver@e1fb][0m The following capabilities were provided, but are not recognized by Appium:
+[38;5;48m[AndroidUiautomator2Driver@e1fb][0m   deviceId
+[38;5;48m[AndroidUiautomator2Driver@e1fb][0m   deviceName
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Session created with session id: 6c88128a-6493-4f82-8376-85d5b39a839f
+[38;5;32m[BaseDriver][0m Using local app 'D:\AutomationKatalon\katalonWebAutomation\androidApp\Kin.apk'
+[38;5;64m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\Ankush\AppData\Local\Android\Sdk' (newest first):
+[38;5;64m[ADB][0m     C:\Users\Ankush\AppData\Local\Android\Sdk\build-tools\34.0.0
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\Ankush\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;80m[AndroidDriver][0m Retrieving device list
+[38;5;80m[AndroidDriver][0m Using device: emulator-5554
+[38;5;64m[ADB][0m Using 'adb.exe' from 'C:\Users\Ankush\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;64m[ADB][0m Getting device platform version
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Relaxing hidden api policy
+[38;5;64m[ADB][0m Package name: 'com.kinship.kinstage'
+[38;5;64m[ADB][0m Main activity name: 'com.kinship.MainActivity'
+[38;5;64m[ADB][0m Using 'apksigner.jar' from 'C:\Users\Ankush\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
+[38;5;64m[ADB][0m 'C:\Users\Ankush\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[38;5;64m[ADB][0m 'C:\Users\Ankush\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.6.apk' is signed with the default certificate
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Server packages are not going to be (re)installed
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;64m[ADB][0m 'D:\AutomationKatalon\katalonWebAutomation\androidApp\Kin.apk' is signed with a non-default certificate
+[38;5;64m[ADB][0m com.kinship.kinstage was not uninstalled, because it was not present on the device
+[38;5;64m[ADB][0m The application at 'D:\AutomationKatalon\katalonWebAutomation\androidApp\Kin.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;64m[ADB][0m The installation of 'Kin.apk' took 8692ms
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Starting UIAutomator2 server 5.12.6
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Using UIAutomator2 server from 'C:\Users\Ankush\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.6.apk' and test from 'C:\Users\Ankush\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m socket hang up
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Determined the downstream protocol as 'W3C'
+[38;5;80m[AndroidDriver][0m Screen already unlocked, doing nothing
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Starting 'com.kinship.kinstage/com.kinship.MainActivity and waiting for 'com.kinship.kinstage/com.kinship.MainActivity'
+[38;5;16m[AppiumDriver@c0c4][0m New AndroidUiautomator2Driver session created successfully, session 6c88128a-6493-4f82-8376-85d5b39a839f added to master session list
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m23761 ms - 1276[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f [39m[32m200[39m [90m29 ms - 1230[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f [39m[32m200[39m [90m41 ms - 1230[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 110[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/timeouts[39m
+[38;5;0m[HTTP][0m [90m{"implicit":30000}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/timeouts [39m[32m200[39m [90m10 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/appium/device/system_bars[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/appium/device/system_bars [39m[32m200[39m [90m181 ms - 151[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/timeouts[39m
+[38;5;0m[HTTP][0m [90m{"implicit":50}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/window/rect[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/window/rect [39m[32m200[39m [90m53 ms - 50[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id='text-continue-with-email']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements [39m[32m200[39m [90m1441 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id='text-continue-with-email']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements [39m[32m200[39m [90m89 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id='text-continue-with-email']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements [39m[32m200[39m [90m264 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id='text-continue-with-email']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements [39m[32m200[39m [90m323 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id='text-continue-with-email']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements [39m[32m200[39m [90m70 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id='text-continue-with-email']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements [39m[32m200[39m [90m741 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id='text-continue-with-email']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements [39m[32m200[39m [90m102 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id='text-continue-with-email']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements [39m[32m200[39m [90m99 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id='text-continue-with-email']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements [39m[32m200[39m [90m128 ms - 12[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@resource-id='text-continue-with-email']"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/elements [39m[32m200[39m [90m1710 ms - 139[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/element/00000000-0000-0031-ffff-ffff00000037/location[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Replacing sessionId d2de9ff9-5e1c-485f-9d36-8837ab84af40 with 6c88128a-6493-4f82-8376-85d5b39a839f
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/element/00000000-0000-0031-ffff-ffff00000037/location [39m[32m200[39m [90m64 ms - 78[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/timeouts[39m
+[38;5;0m[HTTP][0m [90m{"implicit":30000}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/context[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/context [39m[32m200[39m [90m4 ms - 22[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/contexts[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/contexts [39m[32m200[39m [90m122 ms - 24[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/context[39m
+[38;5;0m[HTTP][0m [90m{"name":"NATIVE_APP"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/context [39m[32m200[39m [90m3 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/appium/device/current_package[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/appium/device/current_package [39m[32m200[39m [90m60 ms - 32[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/appium/device/terminate_app[39m
+[38;5;0m[HTTP][0m [90m{"bundleId":"com.kinship.kinstage"}[39m
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Terminating 'com.kinship.kinstage'
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Querying the state of 'com.kinship.kinstage'
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m 'com.kinship.kinstage' has been successfully terminated
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/appium/device/terminate_app [39m[32m200[39m [90m795 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/context[39m
+[38;5;0m[HTTP][0m [90m{"name":"NATIVE_APP"}[39m
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f/context [39m[32m200[39m [90m3 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;16m[AppiumDriver@c0c4][0m Removing session 6c88128a-6493-4f82-8376-85d5b39a839f from our master session list
+[38;5;64m[ADB][0m com.kinship.kinstage was successfully uninstalled
+[38;5;48m[AndroidUiautomator2Driver@e1fb (6c88128a)][0m Restoring hidden api policy to the device default configuration
+[38;5;0m[HTTP][0m [37m<-- DELETE /wd/hub/session/6c88128a-6493-4f82-8376-85d5b39a839f [39m[32m200[39m [90m1011 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
