@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08 Verify User Logout Popup UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0d8bf458-9437-49b5-8e8d-59369257334b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7ab2b13-da6d-4306-9ff3-87ed940eea8e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e7abaa5-cb44-446a-acc4-9980c1b3fa7b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4e522e67-c5e4-4480-8c28-3f4d1bc890f7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ffd84ccc-3160-4f23-954f-04a8fd81d0ef</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Log out'</defaultValue>
+      <description></description>
+      <id>e7ab2b13-da6d-4306-9ff3-87ed940eea8e</id>
+      <masked>false</masked>
+      <name>LogoutBtnText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sure you want to log out?'</defaultValue>
+      <description></description>
+      <id>0e7abaa5-cb44-446a-acc4-9980c1b3fa7b</id>
+      <masked>false</masked>
+      <name>LogoutPopupTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yes, Log Me Out'</defaultValue>
+      <description></description>
+      <id>4e522e67-c5e4-4480-8c28-3f4d1bc890f7</id>
+      <masked>false</masked>
+      <name>ConfirmLogoutButtonText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nevermind'</defaultValue>
+      <description></description>
+      <id>ffd84ccc-3160-4f23-954f-04a8fd81d0ef</id>
+      <masked>false</masked>
+      <name>NevermindLinkText</name>
+   </variable>
+</TestCaseEntity>

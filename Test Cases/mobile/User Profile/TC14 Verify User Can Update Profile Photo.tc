@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14 Verify User Can Update Profile Photo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>10fe3cc5-dd2b-4519-abdc-1fdfdeb324e9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>32510e61-cb9b-42d8-8347-e91f75640453</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>47bc60e8-c114-412e-899c-6a4622057790</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Photo updated!'</defaultValue>
+      <description></description>
+      <id>32510e61-cb9b-42d8-8347-e91f75640453</id>
+      <masked>false</masked>
+      <name>SuccessMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>'TestData\\\\UserPhoto.png'</defaultValue>
+      <description></description>
+      <id>47bc60e8-c114-412e-899c-6a4622057790</id>
+      <masked>false</masked>
+      <name>ImagePath</name>
+   </variable>
+</TestCaseEntity>

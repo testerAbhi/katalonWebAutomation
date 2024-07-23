@@ -24,4 +24,29 @@
       <initValue>5</initValue>
       <name>ShortTimeout</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'abhishel.kasera.ext@kinship.co'</initValue>
+      <name>UserEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kinship@123'</initValue>
+      <name>UserPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://pay.dentalhut.in/login'</initValue>
+      <name>BaseUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'srishti.agarwal@devstringx.com'</initValue>
+      <name>APIEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test@123'</initValue>
+      <name>APIPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

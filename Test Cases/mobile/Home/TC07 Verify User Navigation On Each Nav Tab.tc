@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07 Verify User Navigation On Each Nav Tab</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a944ad86-5ee7-4e5b-867a-ec65e2210576</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05a6954e-83f0-4252-8831-f9cd974aabe7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a31e4202-3450-465c-9579-583fb3f551e9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1d73607-1cab-4cf5-addd-398a319edf94</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>33562732-9107-457a-aec8-439982236353</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hi, yzee'</defaultValue>
+      <description></description>
+      <id>05a6954e-83f0-4252-8831-f9cd974aabe7</id>
+      <masked>false</masked>
+      <name>HomePageTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ask an expert'</defaultValue>
+      <description></description>
+      <id>a31e4202-3450-465c-9579-583fb3f551e9</id>
+      <masked>false</masked>
+      <name>VetChatPageTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'My Pets'</defaultValue>
+      <description></description>
+      <id>b1d73607-1cab-4cf5-addd-398a319edf94</id>
+      <masked>false</masked>
+      <name>PetProfilePageTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Profile'</defaultValue>
+      <description></description>
+      <id>33562732-9107-457a-aec8-439982236353</id>
+      <masked>false</masked>
+      <name>UserProfilePageTitle</name>
+   </variable>
+</TestCaseEntity>
