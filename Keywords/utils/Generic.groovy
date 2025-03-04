@@ -17,4 +17,16 @@ public class Generic {
 		DateTimeFormatter formatter=DateTimeFormatter.ofPattern("dd/MM/yyyy")
 		return dob.format(formatter)
 	}
+
+	public static generateRandomEmail() {
+		def alphabet = (('a'..'z') + ('A'..'Z')) + ('0'..'9')
+
+		def randomName = ((alphabet[new Random().nextInt(alphabet.size())]) as char)
+
+		for (int i = 1; i < 8; i++) {
+			randomName += ((alphabet[new Random().nextInt(alphabet.size())]) as char)
+		}
+
+		return ('testuser+' + randomName) + '@kin.co'
+	}
 }

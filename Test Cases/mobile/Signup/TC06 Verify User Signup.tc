@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06 Verify User Signup</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d575e21f-cd62-4f0e-9b3d-8d920b55e8a5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>153c69dc-0a1c-4884-878e-872fddf22625</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74476f03-8f65-4ddd-b059-2d796305ba2f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92cfad78-6621-4136-ab2c-9fd90e9df8e1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f57282e-5943-435c-8d23-2a9e3c140120</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Kin'</defaultValue>
+      <description></description>
+      <id>153c69dc-0a1c-4884-878e-872fddf22625</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'User'</defaultValue>
+      <description></description>
+      <id>74476f03-8f65-4ddd-b059-2d796305ba2f</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'kinship@123'</defaultValue>
+      <description></description>
+      <id>92cfad78-6621-4136-ab2c-9fd90e9df8e1</id>
+      <masked>false</masked>
+      <name>NewPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'Get all the pet parent answers you need for $4.99'</defaultValue>
+      <description></description>
+      <id>0f57282e-5943-435c-8d23-2a9e3c140120</id>
+      <masked>false</masked>
+      <name>SubscriptionHeader</name>
+   </variable>
+</TestCaseEntity>

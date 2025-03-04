@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04 Verify Signup Screen UI</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>331e675c-7e41-4097-b2ed-b847f05b6a9f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22ce963a-dad5-4fa5-b638-ff93d2dabe3d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03665408-18d6-4453-8936-cd1831974057</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Sign up'</defaultValue>
+      <description></description>
+      <id>22ce963a-dad5-4fa5-b638-ff93d2dabe3d</id>
+      <masked>false</masked>
+      <name>SignupScreenTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Continue'</defaultValue>
+      <description></description>
+      <id>03665408-18d6-4453-8936-cd1831974057</id>
+      <masked>false</masked>
+      <name>ContinueButtonText</name>
+   </variable>
+</TestCaseEntity>

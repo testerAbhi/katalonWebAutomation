@@ -5,17 +5,17 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>3b0a2872-1ea4-4bf4-8ee9-599112f865e6</testSuiteGuid>
    <testCaseLink>
-      <guid>0ec17562-e2d4-4cb9-9ddc-012be282ffde</guid>
+      <guid>0b93d111-5ec3-453a-b05a-051495f9a6fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/mobile/Login/TC01 Verify Enter Email Screen UI</testCaseId>
+      <testCaseId>Test Cases/mobile/Login/TC01 Verify Login Screen UI</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -35,12 +35,36 @@
          <value></value>
          <variableId>88f4c3bf-70c2-41a7-8db7-ed8fc1b7b42d</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9d9d74b5-1d4b-495f-a931-795ce73d5e16</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2cb59332-bb46-4d62-951d-153f127320ae</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>be3d89f6-27ab-4b63-afd5-781c72e6b719</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>55bd5e34-d796-4cd5-9e55-58f56c990753</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>faf38192-959b-4fc3-8b99-2b9714fd6cac</guid>
+      <guid>40acd17a-44da-4232-a0ad-a67e055afcc5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/mobile/Login/TC02 Verify Error Message On Email Screen</testCaseId>
+      <testCaseId>Test Cases/mobile/Login/TC02 Verify Error Message On Login Screen</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -60,93 +84,42 @@
          <value></value>
          <variableId>eae5b4ca-1525-4dba-8318-df22cf54e9b9</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b03e78ce-aff1-4b8c-8117-6cf00ba89194</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobile/Login/TC03 Verify Enter Password Screen UI</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6dcfe9dd-d819-4ad6-b708-f7e444eafec8</variableId>
+         <variableId>525bf4b8-104e-43ac-9670-c5f6ec9f407b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c11eccbf-baa6-4112-8957-34c4e7be2b16</variableId>
+         <variableId>39cc5e3e-7072-4a46-8d5d-1bfba51519c7</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>13acb8eb-ed9e-45e7-8710-141fdc4e6277</variableId>
+         <variableId>8601e6ab-4c28-4027-bfd4-8e493f65a0dd</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>56b2d3ca-ed67-44f9-b99d-e892d06e8991</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ea313e4b-dccd-4585-899f-11b50366ba3d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobile/Login/TC04 Verify Error Message On Password Screen</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a2dcbf00-2726-46ae-bd16-e736445a3f20</variableId>
+         <variableId>1448aee0-1d91-4735-81c8-7f52dae88b21</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3e5942ed-c59d-4a4f-8f68-88452fac6d2f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>382af9f2-dfda-4d8a-9ff7-41b2f86ef64f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6f32ebaf-894d-42bf-b206-cf5e32113a4d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5bfd0b26-fa46-4985-b2bc-2bd0a0ef8258</variableId>
+         <variableId>7733c1e6-a602-4a31-9b4c-f0b6acd31c9b</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a8fdecc1-ab4f-49f8-a4ee-ba424a0d6bb4</guid>
+      <guid>8b7c4a2c-dc37-4d15-a89e-11fd0e4efe94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/mobile/Login/TC05 Validate Back Arrow On Password And Email Screen</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>abce8178-41b0-4dba-ade0-c56dea37f3e1</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>24a117dd-4c50-4018-8e88-7ae566059f63</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobile/Login/TC06 Verify User Login</testCaseId>
+      <testCaseId>Test Cases/mobile/Login/TC03 Verify User Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -1,2 +1,2 @@
 UserEmail=automation.user@kin.co
-UserPassword=testing868
+UserPassword=testing273
